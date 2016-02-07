@@ -1,0 +1,116 @@
+TText Remote
+v7
+r1
+cCheck dependencies
+
+N/Users/spencerwhyte/Documents/workspace/Text Remote/Default.png
+c000000004DD162FA00000000000074EE
+t1305567994
+s29934
+
+N/Users/spencerwhyte/Documents/workspace/Text Remote/Text Remote/../../../../Desktop/launchImage.PNG
+c000000004DD161570000000000007B50
+t1305567575
+s31568
+
+N/Users/spencerwhyte/Documents/workspace/Text Remote/Text Remote/en.lproj/InfoPlist.strings
+c000000004DC8B746000000000000002D
+t1304999750
+s45
+
+N/Users/spencerwhyte/Documents/workspace/Text Remote/Text Remote/en.lproj/MainWindow.xib
+c000000004DD1581A0000000000004BBE
+t1305565210
+s19390
+
+N/Users/spencerwhyte/Documents/workspace/Text Remote/Text Remote/index.html
+c000000004DD086880000000000002B5E
+t1305511560
+s11102
+
+N/Users/spencerwhyte/Documents/workspace/Text Remote/Text Remote/send.html
+c000000004DD1455A000000000000333A
+t1305560410
+s13114
+
+N/Users/spencerwhyte/Documents/workspace/Text Remote/build/Debug/Text Remote.app
+t2
+s0
+
+N/Users/spencerwhyte/Documents/workspace/Text Remote/build/Debug/Text Remote.app/Contents/Info.plist
+t2
+s0
+
+N/Users/spencerwhyte/Documents/workspace/Text Remote/build/Debug/Text Remote.app/Contents/PkgInfo
+t2
+s0
+
+N/Users/spencerwhyte/Documents/workspace/Text Remote/build/Debug/Text Remote.app/Contents/Resources/Default.png
+t2
+s0
+
+N/Users/spencerwhyte/Documents/workspace/Text Remote/build/Debug/Text Remote.app/Contents/Resources/en.lproj/InfoPlist.strings
+t2
+s0
+
+N/Users/spencerwhyte/Documents/workspace/Text Remote/build/Debug/Text Remote.app/Contents/Resources/en.lproj/MainWindow.nib
+t2
+s0
+
+N/Users/spencerwhyte/Documents/workspace/Text Remote/build/Debug/Text Remote.app/Contents/Resources/icon.png
+t2
+s0
+
+N/Users/spencerwhyte/Documents/workspace/Text Remote/build/Debug/Text Remote.app/Contents/Resources/index.html
+t2
+s0
+
+N/Users/spencerwhyte/Documents/workspace/Text Remote/build/Debug/Text Remote.app/Contents/Resources/launchImage.PNG
+t2
+s0
+
+N/Users/spencerwhyte/Documents/workspace/Text Remote/build/Debug/Text Remote.app/Contents/Resources/send.html
+t2
+s0
+
+N/Users/spencerwhyte/Documents/workspace/Text Remote/icon.png
+c000000004DD16236000000000000029C
+t1305567798
+s668
+
+NText Remote/Text_Remote-Info.plist
+c000000004DD1623E00000000000005E5
+t1305567806
+s1509
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies327263512#327263512#0(67"[BEROR]error: There is no SDK with the name or path 'iphoneos 4.0'1(4@59"error: There is no SDK with the name or path 'iphoneos 4.0'327263512#18446744073709551615#0#0(1@0"0(0#1#0"32651522506817640#0"0#
+
+CCompileXIB "/Users/spencerwhyte/Documents/workspace/Text Remote/Text Remote/en.lproj/MainWindow.xib"
+r0
+
+CCopyStringsFile "/Users/spencerwhyte/Documents/workspace/Text Remote/build/Debug/Text Remote.app/Contents/Resources/en.lproj/InfoPlist.strings" "Text Remote/en.lproj/InfoPlist.strings"
+r0
+
+CCpResource "build/Debug/Text Remote.app/Contents/Resources/Default.png" Default.png
+r0
+
+CCpResource "build/Debug/Text Remote.app/Contents/Resources/icon.png" icon.png
+r0
+
+CCpResource "build/Debug/Text Remote.app/Contents/Resources/index.html" "Text Remote/index.html"
+r0
+
+CCpResource "build/Debug/Text Remote.app/Contents/Resources/launchImage.PNG" "Text Remote/../../../../Desktop/launchImage.PNG"
+r0
+
+CCpResource "build/Debug/Text Remote.app/Contents/Resources/send.html" "Text Remote/send.html"
+r0
+
+CProcessInfoPlistFile "/Users/spencerwhyte/Documents/workspace/Text Remote/build/Debug/Text Remote.app/Contents/Info.plist" "Text Remote/Text_Remote-Info.plist"
+r0
+
+CTouch "/Users/spencerwhyte/Documents/workspace/Text Remote/build/Debug/Text Remote.app"
+r0
+

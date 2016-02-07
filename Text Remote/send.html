@@ -1,0 +1,336 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang="en">
+        <script>
+            var suggestions;
+            var suggestionNames;
+            var indexArray;
+            var rankings;
+            var rankings2;
+            var suggestionLabels;
+            var suggestionTypes;
+            var toTextField ;
+            var furthest;
+            var greatestIndex;
+            var greatestValue;
+            var tableData1;
+            var tableData2;
+            var tableData3;
+            var tableData4;
+            var innerTable;
+            var firstBit ;
+            function lard(){
+                suggestions=new Array();       
+                suggestionNames=new Array(); 
+                suggestionTypes=new Array(); 
+                
+                JAVASCRIPTSTUFF
+      
+                
+        
+                indexArray = new Array();
+                
+                rankings=new Array(3);
+                rankings2=new Array(3);
+                
+                selectedIndex=0;
+                
+                suggestionLabels  = new Array();
+                suggestionLabels[0]=document.getElementById('suggestion1');
+                suggestionLabels[1]=document.getElementById('suggestion2');
+                suggestionLabels[2]=document.getElementById('suggestion3');
+                suggestionLabels[3]=document.getElementById('suggestion4');
+                
+                toTextField = document.getElementById('to');
+                furthest=0;
+                tableData1 =  document.getElementById('tableData1');
+                tableData2 =  document.getElementById('tableData2');
+                tableData3 =  document.getElementById('tableData3');
+                tableData4 =  document.getElementById('tableData4');
+                
+                innerTable = document.getElementById('innerTable');
+   
+            }
+ 
+            
+        function complete(e){
+            var key;
+            if (window.event)
+            key = window.event.keyCode;
+            else if (e)
+            key = e.which;
+            
+            for (i=0;i<suggestions.length;i++){
+                rankings[i]=0;
+                rankings2[i]=0;
+            }
+            
+            var currentText = toTextField.value;
+            
+            firstBit = "";
+            
+            if(currentText.lastIndexOf(",")==-1){
+                
+            }else{
+                    firstBit = currentText.substr(0, 1 + toTextField.value.lastIndexOf(",", currentText.length));
+                currentText = currentText.substr(toTextField.value.lastIndexOf(",", currentText.length)+1, currentText.length);
+    
+            }
+        
+            while(currentText.charAt(0)==' ' && currentText.length>0){
+                currentText=currentText.substr(1, currentText.length);
+            }
+            
+            
+            while(currentText.indexOf('-')!=-1){
+                currentText=currentText.replace("-","");
+            }
+            
+            for (i=0;i<suggestions.length;i++){
+                var broke1=0;
+                var broke2=0;
+                for(j=0; j < currentText.length;j++){
+      
+                    if(currentText.length < suggestions[i].length && broke1==0){
+                        if(currentText.charAt(j) !== suggestions[i].charAt(j)){
+                            broke1=1;
+                        }else{
+                            rankings[i]++;
+                        }
+                    }
+                    
+                    if(currentText.length < suggestionNames[i].length && broke2 == 0){
+                        if(currentText.charAt(j) !== suggestionNames[i].charAt(j)){
+                            broke2 =1;
+                        }else{
+                            rankings2[i]++;
+                        }
+                    }
+                    if(broke1==1 && broke2 == 1){
+                        break;
+                    }
+                    
+                }
+            }
+            greatestValue = 1;
+            greatestIndex =-1;            
+            furthest = 0;
+            for(i = 0 ; i < 4; i ++){
+                for (k=0;k<suggestions.length;k++){
+                    if(rankings[k] >= greatestValue || rankings2[k] >= greatestValue){
+                        greatestIndex = k;
+                        greatestValue= Math.max(rankings[k],rankings2[k]);
+                    }
+                }  
+                
+                
+                if(greatestIndex !=-1){
+                        rankings[greatestIndex]=-1;
+                        rankings2[greatestIndex]=-1;
+                    var end = "";
+                    if(suggestionTypes[greatestIndex].length!=0){
+                        end ="("+ suggestionTypes[greatestIndex] + ")";
+                    }
+                    
+                        suggestionLabels[i].innerHTML= suggestions[greatestIndex] + end+ " - " + suggestionNames[greatestIndex];
+                        furthest = i;
+                        indexArray[i]=greatestIndex;
+                        
+                        if(i==0){
+                            tableData1.style.display="";
+                        }else if(i==1){
+                            tableData2.style.display="";
+                        }else if(i==2){
+                            tableData3.style.display="";
+                        }else if(i==3){
+                            tableData4.style.display="";
+                        }
+                }else{
+                    suggestionLabels[i].innerHTML="";
+                    if(i==0){
+                        tableData1.style.display="hidden";
+                    }else if(i==1){
+                        tableData2.style.display="hidden";
+                    }else if(i==2){
+                        tableData3.style.display="hidden";
+                    }else if(i==3){
+                        tableData4.style.display="hidden";
+                    }
+
+                    if(i==0){
+                        selectedIndex=-1;
+                    }
+                }
+           
+                greatestIndex =-1;   
+                
+            }   
+            var checker=0;
+            if(key == 38){
+                if(selectedIndex > 0){
+                    selectedIndex --;
+                }
+                should = 0;
+            }else if(key == 40){
+                if(selectedIndex < furthest){
+                    selectedIndex++;
+                }
+                should = 0;
+            }else if(key == 13){
+         
+                if(selectedIndex>-1 && selectedIndex < 4){
+                        toTextField.value= firstBit + suggestions[indexArray[selectedIndex]];
+                }
+                tableData1.style.display="none";
+                tableData2.style.display="none";
+                tableData3.style.display="none";
+                tableData4.style.display="none";
+            }else{
+                selectedIndex=0;
+            }
+            tableData1.style.backgroundColor="white";
+            tableData2.style.backgroundColor="white";
+            tableData3.style.backgroundColor="white";
+            tableData4.style.backgroundColor="white";
+            if(e!==null){
+                if(selectedIndex==0){
+                     tableData1.style.backgroundColor="#59ACFF";
+                }else if(selectedIndex == 1){
+                    tableData2.style.backgroundColor="#59ACFF";
+                }else if(selectedIndex ==2){
+                    tableData3.style.backgroundColor="#59ACFF";
+                }else if(selectedIndex == 3){
+                    tableData4.style.backgroundColor="#59ACFF";
+
+                }
+            }
+            innerTable.style.position = "absolute";
+            innerTable.style.left =toTextField.style.left+ "px";
+            innerTable.style.top = (toTextField.style.top+36 ) +"px";
+            return true;
+        }
+            
+            function submitCheck(e){
+                if (((e.which) ? e.which : window.event.keyCode) == 13) 
+                { 
+                    document.send.submit();
+                } 
+            }
+            function chooseCurrent1(){
+                toTextField.value= firstBit +suggestions[indexArray[0]];
+                tableData1.style.display="none";
+                tableData2.style.display="none";
+                tableData3.style.display="none";
+                tableData4.style.display="none";
+            }
+           function chooseCurrent2(){
+               toTextField.value= firstBit +suggestions[indexArray[1]];
+               tableData1.style.display="none";
+               tableData2.style.display="none";
+               tableData3.style.display="none";
+               tableData4.style.display="none";               
+           }
+           function chooseCurrent3(){
+               toTextField.value= firstBit +suggestions[indexArray[2]];
+               tableData1.style.display="none";
+               tableData2.style.display="none";
+               tableData3.style.display="none";
+               tableData4.style.display="none";
+           }
+           function chooseCurrent4(){
+               toTextField.value= firstBit +suggestions[indexArray[3]];
+               tableData1.style.display="none";
+               tableData2.style.display="none";
+               tableData3.style.display="none";
+               tableData4.style.display="none";
+           }
+            function selectCurrent1(){
+                selectedIndex=0;
+                tableData1.style.backgroundColor="white";
+                tableData2.style.backgroundColor="white";
+                tableData3.style.backgroundColor="white";
+                tableData4.style.backgroundColor="white";
+                tableData1.style.backgroundColor="#59ACFF";
+            }
+            function selectCurrent2(){
+                selectedIndex=1;
+                tableData1.style.backgroundColor="white";
+                tableData2.style.backgroundColor="white";
+                tableData3.style.backgroundColor="white";
+                tableData4.style.backgroundColor="white";
+                tableData2.style.backgroundColor="#59ACFF";  
+            }
+            function selectCurrent3(){
+                selectedIndex=2;
+                tableData1.style.backgroundColor="white";
+                tableData2.style.backgroundColor="white";
+                tableData3.style.backgroundColor="white";
+                tableData4.style.backgroundColor="white";
+                tableData3.style.backgroundColor="#59ACFF";
+            }
+            function selectCurrent4(){
+                selectedIndex=3;
+                tableData1.style.backgroundColor="white";
+                tableData2.style.backgroundColor="white";
+                tableData3.style.backgroundColor="white";
+                tableData4.style.backgroundColor="white";
+                tableData4.style.backgroundColor="#59ACFF";
+            }
+         
+        </script>
+    
+    <HEAD>
+        <TITLE>Text Remote</TITLE>
+    </HEAD>
+    
+    <body onLoad="lard()">
+    <DIV ALIGN=CENTER>
+            <form method="POST" action="" name="send" enctype="multipart/form-data">
+                    <TABLE CELLSPACING="10px">
+                    <TR>
+                    <TD><label for="to">To:</label>
+                    <TD><input autocomplete="off" type="text" onkeyup="complete(event)" onkeypress="return event.keyCode!=13" name="to" id="to"  size=60>
+                        
+                    <TABLE id ="innerTable" style ="position:absolute;"> 
+                        
+                    <TR >
+             
+                    <TD id="tableData1"><label onClick="chooseCurrent1()" onmouseover="selectCurrent1()" id="suggestion1"></label>
+                        
+                    <TR>
+    
+                    <TD id="tableData2"><label onClick="chooseCurrent2()" onmouseover="selectCurrent2()" id="suggestion2"></label>  
+                        
+                    <TR>
+            
+                    <TD id="tableData3"><label onClick="chooseCurrent3()" onmouseover="selectCurrent3()" id="suggestion3"></label>  
+                                    
+                    <TR>
+                 
+                    <TD id="tableData4"><label onClick="chooseCurrent4()" onmouseover="selectCurrent4()" id="suggestion4"></label> 
+                        
+                    </TABLE>
+                        
+                    <TR>
+                    
+                    <TD>
+                        
+                    <TD>
+                        
+                    <TR>
+                    
+                    <TD><label for="message">Message:</label>
+                        
+                    <TD><textarea name="message" onKeyPress="submitCheck(event);" cols="60" rows="8"></textarea>
+                        
+                    <TR>
+                        
+                    <TD>
+                        
+                    <TD><DIV ALIGN=RIGHT><input type="submit" value="Send"></DIV>
+                        
+                    </TABLE>
+                
+            </form>
+       </DIV>
+    </body>
+</html>

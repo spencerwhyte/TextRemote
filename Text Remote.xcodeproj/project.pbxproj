@@ -7,6 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F34F846D1381991800E295ED /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F34F846C1381991800E295ED /* Default.png */; };
+		F34F846F138199BE00E295ED /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F34F846E138199BE00E295ED /* icon.png */; };
+		F34F84721381A27100E295ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F366C2061378EEC6002F3A4D /* main.m */; };
+		F34F84731381A27100E295ED /* Text_RemoteAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F366C2091378EEC6002F3A4D /* Text_RemoteAppDelegate.m */; };
+		F34F84741381A27100E295ED /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F366C20F1378EEC6002F3A4D /* RootViewController.m */; };
+		F34F84751381A27100E295ED /* TCPServer.m in Sources */ = {isa = PBXBuildFile; fileRef = F366C21A1378EED5002F3A4D /* TCPServer.m */; };
+		F34F84761381A27100E295ED /* HTTPServer.m in Sources */ = {isa = PBXBuildFile; fileRef = F366C21C1378EED5002F3A4D /* HTTPServer.m */; };
+		F34F84781381A27100E295ED /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F39A3A34137F056F005CEF07 /* AddressBook.framework */; };
+		F34F84791381A27100E295ED /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F362BE1A137BB14B00A24AB6 /* MessageUI.framework */; };
+		F34F847A1381A27100E295ED /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F366C2211378F00A002F3A4D /* CFNetwork.framework */; };
+		F34F847B1381A27100E295ED /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F366C21F1378EF2C002F3A4D /* MobileCoreServices.framework */; };
+		F34F847C1381A27100E295ED /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F366C1F91378EEC6002F3A4D /* UIKit.framework */; };
+		F34F847D1381A27100E295ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F366C1FB1378EEC6002F3A4D /* Foundation.framework */; };
+		F34F847E1381A27100E295ED /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F366C1FD1378EEC6002F3A4D /* CoreGraphics.framework */; };
+		F34F84801381A27100E295ED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F366C2021378EEC6002F3A4D /* InfoPlist.strings */; };
+		F34F84811381A27100E295ED /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = F366C20B1378EEC6002F3A4D /* MainWindow.xib */; };
+		F34F84821381A27100E295ED /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = F366C2231378F0F1002F3A4D /* index.html */; };
+		F34F84831381A27100E295ED /* send.html in Resources */ = {isa = PBXBuildFile; fileRef = F366C233137A3780002F3A4D /* send.html */; };
+		F34F84851381A27100E295ED /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F34F846C1381991800E295ED /* Default.png */; };
+		F34F84861381A27100E295ED /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F34F846E138199BE00E295ED /* icon.png */; };
+		F362BE1B137BB14B00A24AB6 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F362BE1A137BB14B00A24AB6 /* MessageUI.framework */; };
 		F366C1FA1378EEC6002F3A4D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F366C1F91378EEC6002F3A4D /* UIKit.framework */; };
 		F366C1FC1378EEC6002F3A4D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F366C1FB1378EEC6002F3A4D /* Foundation.framework */; };
 		F366C1FE1378EEC6002F3A4D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F366C1FD1378EEC6002F3A4D /* CoreGraphics.framework */; };
@@ -15,31 +36,69 @@
 		F366C20A1378EEC6002F3A4D /* Text_RemoteAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F366C2091378EEC6002F3A4D /* Text_RemoteAppDelegate.m */; };
 		F366C20D1378EEC6002F3A4D /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = F366C20B1378EEC6002F3A4D /* MainWindow.xib */; };
 		F366C2101378EEC6002F3A4D /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F366C20F1378EEC6002F3A4D /* RootViewController.m */; };
-		F366C2131378EEC6002F3A4D /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F366C2111378EEC6002F3A4D /* RootViewController.xib */; };
+		F366C21D1378EED5002F3A4D /* TCPServer.m in Sources */ = {isa = PBXBuildFile; fileRef = F366C21A1378EED5002F3A4D /* TCPServer.m */; };
+		F366C21E1378EED5002F3A4D /* HTTPServer.m in Sources */ = {isa = PBXBuildFile; fileRef = F366C21C1378EED5002F3A4D /* HTTPServer.m */; };
+		F366C2201378EF2C002F3A4D /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F366C21F1378EF2C002F3A4D /* MobileCoreServices.framework */; };
+		F366C2221378F00A002F3A4D /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F366C2211378F00A002F3A4D /* CFNetwork.framework */; };
+		F366C2241378F0F1002F3A4D /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = F366C2231378F0F1002F3A4D /* index.html */; };
+		F366C234137A3780002F3A4D /* send.html in Resources */ = {isa = PBXBuildFile; fileRef = F366C233137A3780002F3A4D /* send.html */; };
+		F39A3A35137F056F005CEF07 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F39A3A34137F056F005CEF07 /* AddressBook.framework */; };
+		F3B0BDE31C67F093004E045E /* launchImage.PNG in Resources */ = {isa = PBXBuildFile; fileRef = F3B0BDE21C67F093004E045E /* launchImage.PNG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F34F846C1381991800E295ED /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		F34F846E138199BE00E295ED /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		F34F848A1381A27100E295ED /* Text Remote copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Text Remote copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F362BE1A137BB14B00A24AB6 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		F366C1F51378EEC6002F3A4D /* Text Remote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Text Remote.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F366C1F91378EEC6002F3A4D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F366C1FB1378EEC6002F3A4D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F366C1FD1378EEC6002F3A4D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		F366C2011378EEC6002F3A4D /* Text_Remote-Info.plist */ = {isa = PBXFileReference; path = "Text_Remote-Info.plist"; sourceTree = "<group>"; };
+		F366C2011378EEC6002F3A4D /* Text_Remote-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Text_Remote-Info.plist"; sourceTree = "<group>"; };
 		F366C2031378EEC6002F3A4D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		F366C2051378EEC6002F3A4D /* Text_Remote-Prefix.pch */ = {isa = PBXFileReference; path = "Text_Remote-Prefix.pch"; sourceTree = "<group>"; };
+		F366C2051378EEC6002F3A4D /* Text_Remote-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Text_Remote-Prefix.pch"; sourceTree = "<group>"; };
 		F366C2061378EEC6002F3A4D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F366C2081378EEC6002F3A4D /* Text_RemoteAppDelegate.h */ = {isa = PBXFileReference; path = Text_RemoteAppDelegate.h; sourceTree = "<group>"; };
+		F366C2081378EEC6002F3A4D /* Text_RemoteAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Text_RemoteAppDelegate.h; sourceTree = "<group>"; };
 		F366C2091378EEC6002F3A4D /* Text_RemoteAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Text_RemoteAppDelegate.m; sourceTree = "<group>"; };
 		F366C20C1378EEC6002F3A4D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		F366C20E1378EEC6002F3A4D /* RootViewController.h */ = {isa = PBXFileReference; path = RootViewController.h; sourceTree = "<group>"; };
+		F366C20E1378EEC6002F3A4D /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		F366C20F1378EEC6002F3A4D /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
-		F366C2121378EEC6002F3A4D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+		F366C2191378EED5002F3A4D /* TCPServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCPServer.h; sourceTree = "<group>"; };
+		F366C21A1378EED5002F3A4D /* TCPServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCPServer.m; sourceTree = "<group>"; };
+		F366C21B1378EED5002F3A4D /* HTTPServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPServer.h; sourceTree = "<group>"; };
+		F366C21C1378EED5002F3A4D /* HTTPServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPServer.m; sourceTree = "<group>"; };
+		F366C21F1378EF2C002F3A4D /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		F366C2211378F00A002F3A4D /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		F366C2231378F0F1002F3A4D /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		F366C233137A3780002F3A4D /* send.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = send.html; sourceTree = "<group>"; };
+		F39A3A34137F056F005CEF07 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		F3B0BDE21C67F093004E045E /* launchImage.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launchImage.PNG; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		F34F84771381A27100E295ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F34F84781381A27100E295ED /* AddressBook.framework in Frameworks */,
+				F34F84791381A27100E295ED /* MessageUI.framework in Frameworks */,
+				F34F847A1381A27100E295ED /* CFNetwork.framework in Frameworks */,
+				F34F847B1381A27100E295ED /* MobileCoreServices.framework in Frameworks */,
+				F34F847C1381A27100E295ED /* UIKit.framework in Frameworks */,
+				F34F847D1381A27100E295ED /* Foundation.framework in Frameworks */,
+				F34F847E1381A27100E295ED /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F366C1F21378EEC6002F3A4D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F39A3A35137F056F005CEF07 /* AddressBook.framework in Frameworks */,
+				F362BE1B137BB14B00A24AB6 /* MessageUI.framework in Frameworks */,
+				F366C2221378F00A002F3A4D /* CFNetwork.framework in Frameworks */,
+				F366C2201378EF2C002F3A4D /* MobileCoreServices.framework in Frameworks */,
 				F366C1FA1378EEC6002F3A4D /* UIKit.framework in Frameworks */,
 				F366C1FC1378EEC6002F3A4D /* Foundation.framework in Frameworks */,
 				F366C1FE1378EEC6002F3A4D /* CoreGraphics.framework in Frameworks */,
@@ -52,6 +111,12 @@
 		F366C1EA1378EEC6002F3A4D = {
 			isa = PBXGroup;
 			children = (
+				F34F846E138199BE00E295ED /* icon.png */,
+				F34F846C1381991800E295ED /* Default.png */,
+				F39A3A34137F056F005CEF07 /* AddressBook.framework */,
+				F362BE1A137BB14B00A24AB6 /* MessageUI.framework */,
+				F366C2211378F00A002F3A4D /* CFNetwork.framework */,
+				F366C21F1378EF2C002F3A4D /* MobileCoreServices.framework */,
 				F366C1FF1378EEC6002F3A4D /* Text Remote */,
 				F366C1F81378EEC6002F3A4D /* Frameworks */,
 				F366C1F61378EEC6002F3A4D /* Products */,
@@ -62,6 +127,7 @@
 			isa = PBXGroup;
 			children = (
 				F366C1F51378EEC6002F3A4D /* Text Remote.app */,
+				F34F848A1381A27100E295ED /* Text Remote copy.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -79,13 +145,19 @@
 		F366C1FF1378EEC6002F3A4D /* Text Remote */ = {
 			isa = PBXGroup;
 			children = (
+				F3B0BDE21C67F093004E045E /* launchImage.PNG */,
+				F366C2231378F0F1002F3A4D /* index.html */,
+				F366C2191378EED5002F3A4D /* TCPServer.h */,
+				F366C21A1378EED5002F3A4D /* TCPServer.m */,
+				F366C21B1378EED5002F3A4D /* HTTPServer.h */,
+				F366C21C1378EED5002F3A4D /* HTTPServer.m */,
 				F366C2081378EEC6002F3A4D /* Text_RemoteAppDelegate.h */,
 				F366C2091378EEC6002F3A4D /* Text_RemoteAppDelegate.m */,
 				F366C20B1378EEC6002F3A4D /* MainWindow.xib */,
 				F366C20E1378EEC6002F3A4D /* RootViewController.h */,
 				F366C20F1378EEC6002F3A4D /* RootViewController.m */,
-				F366C2111378EEC6002F3A4D /* RootViewController.xib */,
 				F366C2001378EEC6002F3A4D /* Supporting Files */,
+				F366C233137A3780002F3A4D /* send.html */,
 			);
 			path = "Text Remote";
 			sourceTree = "<group>";
@@ -104,6 +176,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		F34F84701381A27100E295ED /* Text Remote copy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F34F84871381A27100E295ED /* Build configuration list for PBXNativeTarget "Text Remote copy" */;
+			buildPhases = (
+				F34F84711381A27100E295ED /* Sources */,
+				F34F84771381A27100E295ED /* Frameworks */,
+				F34F847F1381A27100E295ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Text Remote copy";
+			productName = "Text Remote";
+			productReference = F34F848A1381A27100E295ED /* Text Remote copy.app */;
+			productType = "com.apple.product-type.application";
+		};
 		F366C1F41378EEC6002F3A4D /* Text Remote */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F366C2161378EEC6002F3A4D /* Build configuration list for PBXNativeTarget "Text Remote" */;
@@ -126,6 +215,8 @@
 /* Begin PBXProject section */
 		F366C1EC1378EEC6002F3A4D /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+			};
 			buildConfigurationList = F366C1EF1378EEC6002F3A4D /* Build configuration list for PBXProject "Text Remote" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
@@ -139,24 +230,54 @@
 			projectRoot = "";
 			targets = (
 				F366C1F41378EEC6002F3A4D /* Text Remote */,
+				F34F84701381A27100E295ED /* Text Remote copy */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		F34F847F1381A27100E295ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F34F84801381A27100E295ED /* InfoPlist.strings in Resources */,
+				F34F84811381A27100E295ED /* MainWindow.xib in Resources */,
+				F34F84821381A27100E295ED /* index.html in Resources */,
+				F34F84831381A27100E295ED /* send.html in Resources */,
+				F34F84851381A27100E295ED /* Default.png in Resources */,
+				F34F84861381A27100E295ED /* icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F366C1F31378EEC6002F3A4D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				F366C2041378EEC6002F3A4D /* InfoPlist.strings in Resources */,
+				F3B0BDE31C67F093004E045E /* launchImage.PNG in Resources */,
 				F366C20D1378EEC6002F3A4D /* MainWindow.xib in Resources */,
-				F366C2131378EEC6002F3A4D /* RootViewController.xib in Resources */,
+				F366C2241378F0F1002F3A4D /* index.html in Resources */,
+				F366C234137A3780002F3A4D /* send.html in Resources */,
+				F34F846D1381991800E295ED /* Default.png in Resources */,
+				F34F846F138199BE00E295ED /* icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		F34F84711381A27100E295ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F34F84721381A27100E295ED /* main.m in Sources */,
+				F34F84731381A27100E295ED /* Text_RemoteAppDelegate.m in Sources */,
+				F34F84741381A27100E295ED /* RootViewController.m in Sources */,
+				F34F84751381A27100E295ED /* TCPServer.m in Sources */,
+				F34F84761381A27100E295ED /* HTTPServer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F366C1F11378EEC6002F3A4D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -164,6 +285,8 @@
 				F366C2071378EEC6002F3A4D /* main.m in Sources */,
 				F366C20A1378EEC6002F3A4D /* Text_RemoteAppDelegate.m in Sources */,
 				F366C2101378EEC6002F3A4D /* RootViewController.m in Sources */,
+				F366C21D1378EED5002F3A4D /* TCPServer.m in Sources */,
+				F366C21E1378EED5002F3A4D /* HTTPServer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,17 +309,43 @@
 			name = MainWindow.xib;
 			sourceTree = "<group>";
 		};
-		F366C2111378EEC6002F3A4D /* RootViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F366C2121378EEC6002F3A4D /* en */,
-			);
-			name = RootViewController.xib;
-			sourceTree = "<group>";
-		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		F34F84881381A27100E295ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Text Remote/Text_Remote-Prefix.pch";
+				INFOPLIST_FILE = "Text Remote/Text_Remote-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = "Text Remote copy";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F34F84891381A27100E295ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Text Remote/Text_Remote-Prefix.pch";
+				INFOPLIST_FILE = "Text Remote/Text_Remote-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = "Text Remote copy";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
 		F366C2141378EEC6002F3A4D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -208,7 +357,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
-				SDKROOT = iphoneos;
+				SDKROOT = iphoneos3.2;
 			};
 			name = Debug;
 		};
@@ -222,7 +371,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				SDKROOT = iphoneos;
+				SDKROOT = iphoneos4.1;
 			};
 			name = Release;
 		};
@@ -230,12 +379,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Text Remote/Text_Remote-Prefix.pch";
 				INFOPLIST_FILE = "Text Remote/Text_Remote-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = "iphoneos 4.0";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -244,11 +397,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Text Remote/Text_Remote-Prefix.pch";
 				INFOPLIST_FILE = "Text Remote/Text_Remote-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos4.1;
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
 			};
@@ -257,6 +414,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		F34F84871381A27100E295ED /* Build configuration list for PBXNativeTarget "Text Remote copy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F34F84881381A27100E295ED /* Debug */,
+				F34F84891381A27100E295ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		F366C1EF1378EEC6002F3A4D /* Build configuration list for PBXProject "Text Remote" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -273,6 +439,7 @@
 				F366C2181378EEC6002F3A4D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

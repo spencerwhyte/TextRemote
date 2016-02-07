@@ -8,10 +8,26 @@
 
 #import <UIKit/UIKit.h>
 
-@interface RootViewController : UITableViewController {
+#import "HTTPServer.h"
+
+#import <MessageUI/MFMessageComposeViewController.h>
+@class HTTPServer;
+@interface RootViewController : UITableViewController<MFMessageComposeViewControllerDelegate> {
 @private
 
+    HTTPServer *server;
+ 
+
+    int code[4];
+    
+    NSMutableArray * toList;
+    NSMutableArray * messageList;
+    UISwitch *switchView ;
+    
 }
 
-
+-(BOOL)securityEnabled;
+-(int*)getPointerToCode;
+-(void)sendMessage:(NSString*)to andMessage:(NSString*)message;
+- (void)messageComposeViewController:(MFMessageComposeViewController *)controller didFinishWithResult:(MessageComposeResult)result;
 @end

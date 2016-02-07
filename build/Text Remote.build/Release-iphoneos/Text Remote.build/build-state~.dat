@@ -1,0 +1,711 @@
+TText Remote
+v7
+r0
+t327308912.417245
+cCheck dependencies
+cCpResource "build/Release-iphoneos/Text Remote.app/ResourceRules.plist" /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist
+cProcessInfoPlistFile "/Users/spencerwhyte/Documents/workspace/Text Remote/build/Release-iphoneos/Text Remote.app/Info.plist" "Text Remote/Text_Remote-Info.plist"
+cProcessPCH /var/folders/t+/t+mDLEErH10OmrEqCleGzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Text_Remote-Prefix-dsgrcsbuliuromatbwpklgdudptz/Text_Remote-Prefix.pch.gch "Text Remote/Text_Remote-Prefix.pch" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/t+/t+mDLEErH10OmrEqCleGzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Text_Remote-Prefix-gxkmjolkellczwbzqoyavveveaae/Text_Remote-Prefix.pch.gch "Text Remote/Text_Remote-Prefix.pch" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Text Remote.build/Release-iphoneos/Text Remote.build/Objects-normal/armv6/main.o" "/Users/spencerwhyte/Documents/workspace/Text Remote/Text Remote/main.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Text Remote.build/Release-iphoneos/Text Remote.build/Objects-normal/armv6/Text_RemoteAppDelegate.o" "/Users/spencerwhyte/Documents/workspace/Text Remote/Text Remote/Text_RemoteAppDelegate.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Text Remote.build/Release-iphoneos/Text Remote.build/Objects-normal/armv6/RootViewController.o" "/Users/spencerwhyte/Documents/workspace/Text Remote/Text Remote/RootViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Text Remote.build/Release-iphoneos/Text Remote.build/Objects-normal/armv6/TCPServer.o" "/Users/spencerwhyte/Documents/workspace/Text Remote/Text Remote/TCPServer.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Text Remote.build/Release-iphoneos/Text Remote.build/Objects-normal/armv6/HTTPServer.o" "/Users/spencerwhyte/Documents/workspace/Text Remote/Text Remote/HTTPServer.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Text Remote.build/Release-iphoneos/Text Remote.build/Objects-normal/armv7/main.o" "/Users/spencerwhyte/Documents/workspace/Text Remote/Text Remote/main.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Text Remote.build/Release-iphoneos/Text Remote.build/Objects-normal/armv7/Text_RemoteAppDelegate.o" "/Users/spencerwhyte/Documents/workspace/Text Remote/Text Remote/Text_RemoteAppDelegate.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Text Remote.build/Release-iphoneos/Text Remote.build/Objects-normal/armv7/RootViewController.o" "/Users/spencerwhyte/Documents/workspace/Text Remote/Text Remote/RootViewController.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Text Remote.build/Release-iphoneos/Text Remote.build/Objects-normal/armv7/TCPServer.o" "/Users/spencerwhyte/Documents/workspace/Text Remote/Text Remote/TCPServer.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Text Remote.build/Release-iphoneos/Text Remote.build/Objects-normal/armv7/HTTPServer.o" "/Users/spencerwhyte/Documents/workspace/Text Remote/Text Remote/HTTPServer.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote.build/Objects-normal/armv6/Text Remote" normal armv6
+cLd "/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote.build/Objects-normal/armv7/Text Remote" normal armv7
+cCreateUniversalBinary "/Users/spencerwhyte/Documents/workspace/Text Remote/build/Release-iphoneos/Text Remote.app/Text Remote" normal "armv6 armv7"
+cGenerateDSYMFile "/Users/spencerwhyte/Documents/workspace/Text Remote/build/Release-iphoneos/Text Remote.app.dSYM" "/Users/spencerwhyte/Documents/workspace/Text Remote/build/Release-iphoneos/Text Remote.app/Text Remote"
+cCopyStringsFile "/Users/spencerwhyte/Documents/workspace/Text Remote/build/Release-iphoneos/Text Remote.app/en.lproj/InfoPlist.strings" "Text Remote/en.lproj/InfoPlist.strings"
+cCompileXIB "/Users/spencerwhyte/Documents/workspace/Text Remote/Text Remote/en.lproj/MainWindow.xib"
+cCpResource "build/Release-iphoneos/Text Remote.app/index.html" "Text Remote/index.html"
+cCpResource "build/Release-iphoneos/Text Remote.app/send.html" "Text Remote/send.html"
+cCopyPNGFile "/Users/spencerwhyte/Documents/workspace/Text Remote/build/Release-iphoneos/Text Remote.app/launchImage.PNG" "Text Remote/../../../../Desktop/launchImage.PNG"
+cCopyPNGFile "/Users/spencerwhyte/Documents/workspace/Text Remote/build/Release-iphoneos/Text Remote.app/Default.png" Default.png
+cCopyPNGFile "/Users/spencerwhyte/Documents/workspace/Text Remote/build/Release-iphoneos/Text Remote.app/icon.png" icon.png
+cProcessProductPackaging "/Users/spencerwhyte/Library/MobileDevice/Provisioning Profiles/69E08F86-3619-4DC6-8DFB-830B91EEBEFE.mobileprovision" "/Users/spencerwhyte/Documents/workspace/Text Remote/build/Release-iphoneos/Text Remote.app/embedded.mobileprovision"
+cTouch "/Users/spencerwhyte/Documents/workspace/Text Remote/build/Release-iphoneos/Text Remote.app"
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist "/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote.build/Text Remote.xcent"
+cCodeSign "/Users/spencerwhyte/Documents/workspace/Text Remote/build/Release-iphoneos/Text Remote.app"
+cValidate "/Users/spencerwhyte/Documents/workspace/Text Remote/build/Release-iphoneos/Text Remote.app"
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk
+c000000004C6DE9E30000000000000110
+t1282271715
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist
+c000000004C578FA900000000000001A7
+t1280806825
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist
+c000000004C578FA900000000000001E5
+t1280806825
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/AddressBook.framework/AddressBook
+c000000004C5A53F200000000000C8850
+t1280988146
+s821328
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/AddressBook.framework/Headers/AddressBook.h
+c000000004C5A53E80000000000000424
+t1280988136
+s1060
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+c000000004C5A524A00000000002CE430
+t1280987722
+s2942000
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/CFNetwork.framework/Headers/CFNetwork.h
+c000000004C5A517D00000000000004CF
+t1280987517
+s1231
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004C5A51050000000000345F00
+t1280987397
+s3432192
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004C5A52B100000000003E1EF0
+t1280987825
+s4071152
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004C5A527F0000000000001466
+t1280987775
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/MessageUI.framework/Headers/MFMessageComposeViewController.h
+c000000004C5E20FF0000000000001527
+t1281237247
+s5415
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/MessageUI.framework/MessageUI
+c000000004C5E210F00000000000FF4C0
+t1281237263
+s1045696
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+c000000004C5A53E600000000000947B0
+t1280988134
+s608176
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C62427000000000000009CD
+t1281507952
+s2509
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C62430F0000000002EBC2B0
+t1281508111
+s49005232
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/usr/include/Availability.h
+c000000004C57A57A0000000000001A5C
+t1280812410
+s6748
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/usr/include/arpa/inet.h
+c000000004C5790620000000000001533
+t1280807010
+s5427
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/usr/include/ifaddrs.h
+c000000004C5790730000000000000782
+t1280807027
+s1922
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/usr/include/netinet/in.h
+c000000004C5A4AAE0000000000005462
+t1280985774
+s21602
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/usr/include/sys/socket.h
+c000000004C5A4AB400000000000059D6
+t1280985780
+s22998
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/usr/include/unistd.h
+c000000004C579091000000000000563E
+t1280807057
+s22078
+
+N/Users/spencerwhyte/Documents/workspace/Text Remote/Default.png
+c000000004DD162FA00000000000074EE
+t1305567994
+s29934
+
+N/Users/spencerwhyte/Documents/workspace/Text Remote/Text Remote/../../../../Desktop/launchImage.PNG
+c000000004DD161570000000000007B50
+t1305567575
+s31568
+
+N/Users/spencerwhyte/Documents/workspace/Text Remote/Text Remote/HTTPServer.h
+c000000004DD1505600000000000017E9
+t1305563222
+s6121
+i"TCPServer.h"
+i<Foundation/Foundation.h>
+i"RootViewController.h"
+i<AddressBook/AddressBook.h>
+
+N/Users/spencerwhyte/Documents/workspace/Text Remote/Text Remote/HTTPServer.m
+c000000004DD150E50000000000004F4B
+t1305563365
+s20299
+i"HTTPServer.h"
+
+N/Users/spencerwhyte/Documents/workspace/Text Remote/Text Remote/RootViewController.h
+c000000004DD158160000000000000308
+t1305565206
+s776
+i<UIKit/UIKit.h>
+i"HTTPServer.h"
+i<MessageUI/MFMessageComposeViewController.h>
+
+N/Users/spencerwhyte/Documents/workspace/Text Remote/Text Remote/RootViewController.m
+c000000004DD158120000000000001FF1
+t1305565202
+s8177
+i"RootViewController.h"
+
+N/Users/spencerwhyte/Documents/workspace/Text Remote/Text Remote/TCPServer.h
+c000000004DD14FBC0000000000000F86
+t1305563068
+s3974
+i<Foundation/Foundation.h>
+i<CFNetwork/CFNetwork.h>
+i<ifaddrs.h>
+i<arpa/inet.h>
+
+N/Users/spencerwhyte/Documents/workspace/Text Remote/Text Remote/TCPServer.m
+c000000004DCBF5630000000000002BB2
+t1305212259
+s11186
+i"TCPServer.h"
+i<sys/socket.h>
+i<netinet/in.h>
+i<unistd.h>
+
+N/Users/spencerwhyte/Documents/workspace/Text Remote/Text Remote/Text_Remote-Prefix.pch
+c000000004DC8B7460000000000000148
+t1304999750
+s328
+i<Availability.h>
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+
+N/Users/spencerwhyte/Documents/workspace/Text Remote/Text Remote/Text_RemoteAppDelegate.h
+c000000004DC8B74600000000000001D0
+t1304999750
+s464
+i<UIKit/UIKit.h>
+
+N/Users/spencerwhyte/Documents/workspace/Text Remote/Text Remote/Text_RemoteAppDelegate.m
+c000000004DD14F0F0000000000000563
+t1305562895
+s1379
+i"Text_RemoteAppDelegate.h"
+
+N/Users/spencerwhyte/Documents/workspace/Text Remote/Text Remote/en.lproj/InfoPlist.strings
+c000000004DC8B746000000000000002D
+t1304999750
+s45
+
+N/Users/spencerwhyte/Documents/workspace/Text Remote/Text Remote/en.lproj/MainWindow.xib
+c000000004DD1581A0000000000004BBE
+t1305565210
+s19390
+
+N/Users/spencerwhyte/Documents/workspace/Text Remote/Text Remote/index.html
+c000000004DD086880000000000002B5E
+t1305511560
+s11102
+
+N/Users/spencerwhyte/Documents/workspace/Text Remote/Text Remote/main.m
+c000000004DC8B7460000000000000169
+t1304999750
+s361
+i<UIKit/UIKit.h>
+
+N/Users/spencerwhyte/Documents/workspace/Text Remote/Text Remote/send.html
+c000000004DD1455A000000000000333A
+t1305560410
+s13114
+
+N/Users/spencerwhyte/Documents/workspace/Text Remote/build/Release-iphoneos/Text Remote.app
+t1305616112
+s510
+
+N/Users/spencerwhyte/Documents/workspace/Text Remote/build/Release-iphoneos/Text Remote.app.dSYM
+t1305616111
+s102
+
+N/Users/spencerwhyte/Documents/workspace/Text Remote/build/Release-iphoneos/Text Remote.app/Default.png
+t1305616111
+s32859
+
+N/Users/spencerwhyte/Documents/workspace/Text Remote/build/Release-iphoneos/Text Remote.app/Info.plist
+t1305616107
+s1144
+
+N/Users/spencerwhyte/Documents/workspace/Text Remote/build/Release-iphoneos/Text Remote.app/PkgInfo
+t1305616107
+s8
+
+N/Users/spencerwhyte/Documents/workspace/Text Remote/build/Release-iphoneos/Text Remote.app/ResourceRules.plist
+t1305616107
+s485
+
+N/Users/spencerwhyte/Documents/workspace/Text Remote/build/Release-iphoneos/Text Remote.app/Text Remote
+t1305616111
+s116472
+
+N/Users/spencerwhyte/Documents/workspace/Text Remote/build/Release-iphoneos/Text Remote.app/embedded.mobileprovision
+t1305616112
+s7062
+
+N/Users/spencerwhyte/Documents/workspace/Text Remote/build/Release-iphoneos/Text Remote.app/en.lproj/InfoPlist.strings
+t1305616111
+s42
+
+N/Users/spencerwhyte/Documents/workspace/Text Remote/build/Release-iphoneos/Text Remote.app/en.lproj/MainWindow.nib
+t1305616112
+s2402
+
+N/Users/spencerwhyte/Documents/workspace/Text Remote/build/Release-iphoneos/Text Remote.app/icon.png
+t1305616111
+s759
+
+N/Users/spencerwhyte/Documents/workspace/Text Remote/build/Release-iphoneos/Text Remote.app/index.html
+t1305616111
+s11102
+
+N/Users/spencerwhyte/Documents/workspace/Text Remote/build/Release-iphoneos/Text Remote.app/launchImage.PNG
+t1305616111
+s31886
+
+N/Users/spencerwhyte/Documents/workspace/Text Remote/build/Release-iphoneos/Text Remote.app/send.html
+t1305616111
+s13114
+
+N/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote.build/Objects-normal/armv6/HTTPServer.o
+t1305616110
+s77016
+
+N/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote.build/Objects-normal/armv6/RootViewController.o
+t1305616110
+s57016
+
+N/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote.build/Objects-normal/armv6/TCPServer.o
+t1305616110
+s27968
+
+N/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote.build/Objects-normal/armv6/Text Remote
+t1305616111
+s55100
+
+N/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote.build/Objects-normal/armv6/Text Remote.LinkFileList
+c000000004DD21EEB00000000000002E2
+t1305616107
+s738
+
+N/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote.build/Objects-normal/armv6/Text_RemoteAppDelegate.o
+t1305616110
+s47372
+
+N/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote.build/Objects-normal/armv6/main.o
+t1305616110
+s6496
+
+N/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote.build/Objects-normal/armv7/HTTPServer.o
+t1305616110
+s76404
+
+N/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote.build/Objects-normal/armv7/RootViewController.o
+t1305616110
+s56900
+
+N/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote.build/Objects-normal/armv7/TCPServer.o
+t1305616110
+s27788
+
+N/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote.build/Objects-normal/armv7/Text Remote
+t1305616111
+s55032
+
+N/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote.build/Objects-normal/armv7/Text Remote.LinkFileList
+c000000004DD21EEB00000000000002E2
+t1305616107
+s738
+
+N/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote.build/Objects-normal/armv7/Text_RemoteAppDelegate.o
+t1305616110
+s47384
+
+N/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote.build/Objects-normal/armv7/main.o
+t1305616110
+s6476
+
+N/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote.build/Text Remote.xcent
+t1305616112
+s429
+
+N/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote.build/com.apple.build-tools.platform.validate
+t2
+s0
+
+N/Users/spencerwhyte/Documents/workspace/Text Remote/icon.png
+c000000004DD16236000000000000029C
+t1305567798
+s668
+
+N/Users/spencerwhyte/Library/MobileDevice/Provisioning Profiles/69E08F86-3619-4DC6-8DFB-830B91EEBEFE.mobileprovision
+c000000004DD15FB40000000000001B96
+t1305567156
+s7062
+
+N/var/folders/t+/t+mDLEErH10OmrEqCleGzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Text_Remote-Prefix-dsgrcsbuliuromatbwpklgdudptz/Text_Remote-Prefix.pch.gch
+t1305616109
+s9676336
+
+N/var/folders/t+/t+mDLEErH10OmrEqCleGzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Text_Remote-Prefix-gxkmjolkellczwbzqoyavveveaae/Text_Remote-Prefix.pch.gch
+t1305616109
+s10130992
+
+NText Remote/Text_Remote-Info.plist
+c000000004DD1623E00000000000005E5
+t1305567806
+s1509
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies327308907#327308907#0(0"0(0#1#0"8611871552#0"0#
+
+CCodeSign "/Users/spencerwhyte/Documents/workspace/Text Remote/build/Release-iphoneos/Text Remote.app"
+s327308912.136777
+e327308912.292148
+r1
+xCodeSign
+x/Users/spencerwhyte/Documents/workspace/Text Remote/build/Release-iphoneos/Text Remote.app
+lSLF07#2@49"CodeSign "build/Release-iphoneos/Text Remote.app"327308912#327308912#0(0"0(0#0#90"/Users/spencerwhyte/Documents/workspace/Text Remote/build/Release-iphoneos/Text Remote.app8610629664#729"    cd "/Users/spencerwhyte/Documents/workspace/Text Remote"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Distribution: Mary Barker-Whyte" "--resource-rules=/Users/spencerwhyte/Documents/workspace/Text Remote/build/Release-iphoneos/Text Remote.app/ResourceRules.plist" --entitlements "/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote.build/Text Remote.xcent" "/Users/spencerwhyte/Documents/workspace/Text Remote/build/Release-iphoneos/Text Remote.app"0#
+
+CCompileC "build/Text Remote.build/Release-iphoneos/Text Remote.build/Objects-normal/armv6/HTTPServer.o" "/Users/spencerwhyte/Documents/workspace/Text Remote/Text Remote/HTTPServer.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s327308910.089850
+e327308910.676751
+r1
+xCompileC
+xbuild/Text Remote.build/Release-iphoneos/Text Remote.build/Objects-normal/armv6/HTTPServer.o
+x/Users/spencerwhyte/Documents/workspace/Text Remote/Text Remote/HTTPServer.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/spencerwhyte/Documents/workspace/Text Remote/Text Remote/HTTPServer.m327308910#327308910#0(0"0(0#0#76"/Users/spencerwhyte/Documents/workspace/Text Remote/Text Remote/HTTPServer.m8611455456#2054"    cd "/Users/spencerwhyte/Documents/workspace/Text Remote"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote.build/Text Remote-generated-files.hmap" "-I/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote.build/Text Remote-own-target-headers.hmap" "-I/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote.build/Text Remote-all-target-headers.hmap" -iquote "/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote.build/Text Remote-project-headers.hmap" "-F/Users/spencerwhyte/Documents/workspace/Text Remote/build/Release-iphoneos" "-I/Users/spencerwhyte/Documents/workspace/Text Remote/build/Release-iphoneos/include" "-I/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote.build/DerivedSources/armv6" "-I/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/t+/t+mDLEErH10OmrEqCleGzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Text_Remote-Prefix-dsgrcsbuliuromatbwpklgdudptz/Text_Remote-Prefix.pch -c "/Users/spencerwhyte/Documents/workspace/Text Remote/Text Remote/HTTPServer.m" -o "/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote.build/Objects-normal/armv6/HTTPServer.o"0#
+
+CCompileC "build/Text Remote.build/Release-iphoneos/Text Remote.build/Objects-normal/armv6/RootViewController.o" "/Users/spencerwhyte/Documents/workspace/Text Remote/Text Remote/RootViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s327308909.781432
+e327308910.394178
+r1
+xCompileC
+xbuild/Text Remote.build/Release-iphoneos/Text Remote.build/Objects-normal/armv6/RootViewController.o
+x/Users/spencerwhyte/Documents/workspace/Text Remote/Text Remote/RootViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@92"Compile /Users/spencerwhyte/Documents/workspace/Text Remote/Text Remote/RootViewController.m327308909#327308910#0(0"0(0#0#84"/Users/spencerwhyte/Documents/workspace/Text Remote/Text Remote/RootViewController.m8612748704#2070"    cd "/Users/spencerwhyte/Documents/workspace/Text Remote"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote.build/Text Remote-generated-files.hmap" "-I/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote.build/Text Remote-own-target-headers.hmap" "-I/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote.build/Text Remote-all-target-headers.hmap" -iquote "/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote.build/Text Remote-project-headers.hmap" "-F/Users/spencerwhyte/Documents/workspace/Text Remote/build/Release-iphoneos" "-I/Users/spencerwhyte/Documents/workspace/Text Remote/build/Release-iphoneos/include" "-I/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote.build/DerivedSources/armv6" "-I/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/t+/t+mDLEErH10OmrEqCleGzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Text_Remote-Prefix-dsgrcsbuliuromatbwpklgdudptz/Text_Remote-Prefix.pch -c "/Users/spencerwhyte/Documents/workspace/Text Remote/Text Remote/RootViewController.m" -o "/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote.build/Objects-normal/armv6/RootViewController.o"0#
+
+CCompileC "build/Text Remote.build/Release-iphoneos/Text Remote.build/Objects-normal/armv6/TCPServer.o" "/Users/spencerwhyte/Documents/workspace/Text Remote/Text Remote/TCPServer.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s327308909.782620
+e327308910.364467
+r1
+xCompileC
+xbuild/Text Remote.build/Release-iphoneos/Text Remote.build/Objects-normal/armv6/TCPServer.o
+x/Users/spencerwhyte/Documents/workspace/Text Remote/Text Remote/TCPServer.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@83"Compile /Users/spencerwhyte/Documents/workspace/Text Remote/Text Remote/TCPServer.m327308909#327308910#0(0"0(0#0#75"/Users/spencerwhyte/Documents/workspace/Text Remote/Text Remote/TCPServer.m8612144640#2052"    cd "/Users/spencerwhyte/Documents/workspace/Text Remote"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote.build/Text Remote-generated-files.hmap" "-I/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote.build/Text Remote-own-target-headers.hmap" "-I/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote.build/Text Remote-all-target-headers.hmap" -iquote "/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote.build/Text Remote-project-headers.hmap" "-F/Users/spencerwhyte/Documents/workspace/Text Remote/build/Release-iphoneos" "-I/Users/spencerwhyte/Documents/workspace/Text Remote/build/Release-iphoneos/include" "-I/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote.build/DerivedSources/armv6" "-I/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/t+/t+mDLEErH10OmrEqCleGzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Text_Remote-Prefix-dsgrcsbuliuromatbwpklgdudptz/Text_Remote-Prefix.pch -c "/Users/spencerwhyte/Documents/workspace/Text Remote/Text Remote/TCPServer.m" -o "/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote.build/Objects-normal/armv6/TCPServer.o"0#
+
+CCompileC "build/Text Remote.build/Release-iphoneos/Text Remote.build/Objects-normal/armv6/Text_RemoteAppDelegate.o" "/Users/spencerwhyte/Documents/workspace/Text Remote/Text Remote/Text_RemoteAppDelegate.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s327308909.780360
+e327308910.111990
+r1
+xCompileC
+xbuild/Text Remote.build/Release-iphoneos/Text Remote.build/Objects-normal/armv6/Text_RemoteAppDelegate.o
+x/Users/spencerwhyte/Documents/workspace/Text Remote/Text Remote/Text_RemoteAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@96"Compile /Users/spencerwhyte/Documents/workspace/Text Remote/Text Remote/Text_RemoteAppDelegate.m327308909#327308910#0(0"0(0#0#88"/Users/spencerwhyte/Documents/workspace/Text Remote/Text Remote/Text_RemoteAppDelegate.m8610134496#2078"    cd "/Users/spencerwhyte/Documents/workspace/Text Remote"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote.build/Text Remote-generated-files.hmap" "-I/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote.build/Text Remote-own-target-headers.hmap" "-I/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote.build/Text Remote-all-target-headers.hmap" -iquote "/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote.build/Text Remote-project-headers.hmap" "-F/Users/spencerwhyte/Documents/workspace/Text Remote/build/Release-iphoneos" "-I/Users/spencerwhyte/Documents/workspace/Text Remote/build/Release-iphoneos/include" "-I/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote.build/DerivedSources/armv6" "-I/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/t+/t+mDLEErH10OmrEqCleGzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Text_Remote-Prefix-dsgrcsbuliuromatbwpklgdudptz/Text_Remote-Prefix.pch -c "/Users/spencerwhyte/Documents/workspace/Text Remote/Text Remote/Text_RemoteAppDelegate.m" -o "/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote.build/Objects-normal/armv6/Text_RemoteAppDelegate.o"0#
+
+CCompileC "build/Text Remote.build/Release-iphoneos/Text Remote.build/Objects-normal/armv6/main.o" "/Users/spencerwhyte/Documents/workspace/Text Remote/Text Remote/main.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s327308909.779320
+e327308910.089749
+r1
+xCompileC
+xbuild/Text Remote.build/Release-iphoneos/Text Remote.build/Objects-normal/armv6/main.o
+x/Users/spencerwhyte/Documents/workspace/Text Remote/Text Remote/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/spencerwhyte/Documents/workspace/Text Remote/Text Remote/main.m327308909#327308910#0(0"0(0#0#70"/Users/spencerwhyte/Documents/workspace/Text Remote/Text Remote/main.m8598703328#2042"    cd "/Users/spencerwhyte/Documents/workspace/Text Remote"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote.build/Text Remote-generated-files.hmap" "-I/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote.build/Text Remote-own-target-headers.hmap" "-I/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote.build/Text Remote-all-target-headers.hmap" -iquote "/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote.build/Text Remote-project-headers.hmap" "-F/Users/spencerwhyte/Documents/workspace/Text Remote/build/Release-iphoneos" "-I/Users/spencerwhyte/Documents/workspace/Text Remote/build/Release-iphoneos/include" "-I/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote.build/DerivedSources/armv6" "-I/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/t+/t+mDLEErH10OmrEqCleGzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Text_Remote-Prefix-dsgrcsbuliuromatbwpklgdudptz/Text_Remote-Prefix.pch -c "/Users/spencerwhyte/Documents/workspace/Text Remote/Text Remote/main.m" -o "/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote.build/Objects-normal/armv6/main.o"0#
+
+CCompileC "build/Text Remote.build/Release-iphoneos/Text Remote.build/Objects-normal/armv7/HTTPServer.o" "/Users/spencerwhyte/Documents/workspace/Text Remote/Text Remote/HTTPServer.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s327308910.394325
+e327308910.848688
+r1
+xCompileC
+xbuild/Text Remote.build/Release-iphoneos/Text Remote.build/Objects-normal/armv7/HTTPServer.o
+x/Users/spencerwhyte/Documents/workspace/Text Remote/Text Remote/HTTPServer.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/spencerwhyte/Documents/workspace/Text Remote/Text Remote/HTTPServer.m327308910#327308910#0(0"0(0#0#76"/Users/spencerwhyte/Documents/workspace/Text Remote/Text Remote/HTTPServer.m8611927680#2054"    cd "/Users/spencerwhyte/Documents/workspace/Text Remote"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote.build/Text Remote-generated-files.hmap" "-I/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote.build/Text Remote-own-target-headers.hmap" "-I/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote.build/Text Remote-all-target-headers.hmap" -iquote "/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote.build/Text Remote-project-headers.hmap" "-F/Users/spencerwhyte/Documents/workspace/Text Remote/build/Release-iphoneos" "-I/Users/spencerwhyte/Documents/workspace/Text Remote/build/Release-iphoneos/include" "-I/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote.build/DerivedSources/armv7" "-I/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/t+/t+mDLEErH10OmrEqCleGzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Text_Remote-Prefix-gxkmjolkellczwbzqoyavveveaae/Text_Remote-Prefix.pch -c "/Users/spencerwhyte/Documents/workspace/Text Remote/Text Remote/HTTPServer.m" -o "/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote.build/Objects-normal/armv7/HTTPServer.o"0#
+
+CCompileC "build/Text Remote.build/Release-iphoneos/Text Remote.build/Objects-normal/armv7/RootViewController.o" "/Users/spencerwhyte/Documents/workspace/Text Remote/Text Remote/RootViewController.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s327308910.284806
+e327308910.595039
+r1
+xCompileC
+xbuild/Text Remote.build/Release-iphoneos/Text Remote.build/Objects-normal/armv7/RootViewController.o
+x/Users/spencerwhyte/Documents/workspace/Text Remote/Text Remote/RootViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@92"Compile /Users/spencerwhyte/Documents/workspace/Text Remote/Text Remote/RootViewController.m327308910#327308910#0(0"0(0#0#84"/Users/spencerwhyte/Documents/workspace/Text Remote/Text Remote/RootViewController.m8598825792#2070"    cd "/Users/spencerwhyte/Documents/workspace/Text Remote"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote.build/Text Remote-generated-files.hmap" "-I/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote.build/Text Remote-own-target-headers.hmap" "-I/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote.build/Text Remote-all-target-headers.hmap" -iquote "/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote.build/Text Remote-project-headers.hmap" "-F/Users/spencerwhyte/Documents/workspace/Text Remote/build/Release-iphoneos" "-I/Users/spencerwhyte/Documents/workspace/Text Remote/build/Release-iphoneos/include" "-I/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote.build/DerivedSources/armv7" "-I/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/t+/t+mDLEErH10OmrEqCleGzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Text_Remote-Prefix-gxkmjolkellczwbzqoyavveveaae/Text_Remote-Prefix.pch -c "/Users/spencerwhyte/Documents/workspace/Text Remote/Text Remote/RootViewController.m" -o "/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote.build/Objects-normal/armv7/RootViewController.o"0#
+
+CCompileC "build/Text Remote.build/Release-iphoneos/Text Remote.build/Objects-normal/armv7/TCPServer.o" "/Users/spencerwhyte/Documents/workspace/Text Remote/Text Remote/TCPServer.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s327308910.364619
+e327308910.624212
+r1
+xCompileC
+xbuild/Text Remote.build/Release-iphoneos/Text Remote.build/Objects-normal/armv7/TCPServer.o
+x/Users/spencerwhyte/Documents/workspace/Text Remote/Text Remote/TCPServer.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@83"Compile /Users/spencerwhyte/Documents/workspace/Text Remote/Text Remote/TCPServer.m327308910#327308910#0(0"0(0#0#75"/Users/spencerwhyte/Documents/workspace/Text Remote/Text Remote/TCPServer.m8612683552#2052"    cd "/Users/spencerwhyte/Documents/workspace/Text Remote"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote.build/Text Remote-generated-files.hmap" "-I/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote.build/Text Remote-own-target-headers.hmap" "-I/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote.build/Text Remote-all-target-headers.hmap" -iquote "/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote.build/Text Remote-project-headers.hmap" "-F/Users/spencerwhyte/Documents/workspace/Text Remote/build/Release-iphoneos" "-I/Users/spencerwhyte/Documents/workspace/Text Remote/build/Release-iphoneos/include" "-I/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote.build/DerivedSources/armv7" "-I/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/t+/t+mDLEErH10OmrEqCleGzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Text_Remote-Prefix-gxkmjolkellczwbzqoyavveveaae/Text_Remote-Prefix.pch -c "/Users/spencerwhyte/Documents/workspace/Text Remote/Text Remote/TCPServer.m" -o "/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote.build/Objects-normal/armv7/TCPServer.o"0#
+
+CCompileC "build/Text Remote.build/Release-iphoneos/Text Remote.build/Objects-normal/armv7/Text_RemoteAppDelegate.o" "/Users/spencerwhyte/Documents/workspace/Text Remote/Text Remote/Text_RemoteAppDelegate.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s327308910.173919
+e327308910.284653
+r1
+xCompileC
+xbuild/Text Remote.build/Release-iphoneos/Text Remote.build/Objects-normal/armv7/Text_RemoteAppDelegate.o
+x/Users/spencerwhyte/Documents/workspace/Text Remote/Text Remote/Text_RemoteAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@96"Compile /Users/spencerwhyte/Documents/workspace/Text Remote/Text Remote/Text_RemoteAppDelegate.m327308910#327308910#0(0"0(0#0#88"/Users/spencerwhyte/Documents/workspace/Text Remote/Text Remote/Text_RemoteAppDelegate.m8609388992#2078"    cd "/Users/spencerwhyte/Documents/workspace/Text Remote"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote.build/Text Remote-generated-files.hmap" "-I/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote.build/Text Remote-own-target-headers.hmap" "-I/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote.build/Text Remote-all-target-headers.hmap" -iquote "/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote.build/Text Remote-project-headers.hmap" "-F/Users/spencerwhyte/Documents/workspace/Text Remote/build/Release-iphoneos" "-I/Users/spencerwhyte/Documents/workspace/Text Remote/build/Release-iphoneos/include" "-I/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote.build/DerivedSources/armv7" "-I/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/t+/t+mDLEErH10OmrEqCleGzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Text_Remote-Prefix-gxkmjolkellczwbzqoyavveveaae/Text_Remote-Prefix.pch -c "/Users/spencerwhyte/Documents/workspace/Text Remote/Text Remote/Text_RemoteAppDelegate.m" -o "/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote.build/Objects-normal/armv7/Text_RemoteAppDelegate.o"0#
+
+CCompileC "build/Text Remote.build/Release-iphoneos/Text Remote.build/Objects-normal/armv7/main.o" "/Users/spencerwhyte/Documents/workspace/Text Remote/Text Remote/main.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s327308910.112157
+e327308910.173776
+r1
+xCompileC
+xbuild/Text Remote.build/Release-iphoneos/Text Remote.build/Objects-normal/armv7/main.o
+x/Users/spencerwhyte/Documents/workspace/Text Remote/Text Remote/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/spencerwhyte/Documents/workspace/Text Remote/Text Remote/main.m327308910#327308910#0(0"0(0#0#70"/Users/spencerwhyte/Documents/workspace/Text Remote/Text Remote/main.m8611100800#2042"    cd "/Users/spencerwhyte/Documents/workspace/Text Remote"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote.build/Text Remote-generated-files.hmap" "-I/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote.build/Text Remote-own-target-headers.hmap" "-I/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote.build/Text Remote-all-target-headers.hmap" -iquote "/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote.build/Text Remote-project-headers.hmap" "-F/Users/spencerwhyte/Documents/workspace/Text Remote/build/Release-iphoneos" "-I/Users/spencerwhyte/Documents/workspace/Text Remote/build/Release-iphoneos/include" "-I/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote.build/DerivedSources/armv7" "-I/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/t+/t+mDLEErH10OmrEqCleGzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Text_Remote-Prefix-gxkmjolkellczwbzqoyavveveaae/Text_Remote-Prefix.pch -c "/Users/spencerwhyte/Documents/workspace/Text Remote/Text Remote/main.m" -o "/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote.build/Objects-normal/armv7/main.o"0#
+
+CCompileXIB "/Users/spencerwhyte/Documents/workspace/Text Remote/Text Remote/en.lproj/MainWindow.xib"
+s327308911.521279
+e327308912.114259
+r1
+xCompileXIB
+x/Users/spencerwhyte/Documents/workspace/Text Remote/Text Remote/en.lproj/MainWindow.xib
+lSLF07#2@48"CompileXIB "Text Remote/en.lproj/MainWindow.xib"327308911#327308912#0(0"0(0#0#87"/Users/spencerwhyte/Documents/workspace/Text Remote/Text Remote/en.lproj/MainWindow.xib8595858368#623"    cd "/Users/spencerwhyte/Documents/workspace/Text Remote"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/spencerwhyte/Documents/workspace/Text Remote/build/Release-iphoneos/Text Remote.app/en.lproj/MainWindow.nib" "/Users/spencerwhyte/Documents/workspace/Text Remote/Text Remote/en.lproj/MainWindow.xib" --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk0#
+
+CCopyPNGFile "/Users/spencerwhyte/Documents/workspace/Text Remote/build/Release-iphoneos/Text Remote.app/Default.png" Default.png
+s327308911.528389
+e327308911.919920
+r1
+xCopyPNGFile
+x/Users/spencerwhyte/Documents/workspace/Text Remote/build/Release-iphoneos/Text Remote.app/Default.png
+xDefault.png
+lSLF07#2@76"CopyPNGFile "build/Release-iphoneos/Text Remote.app/Default.png" Default.png327308911#327308911#0(0"0(0#0#63"/Users/spencerwhyte/Documents/workspace/Text Remote/Default.png8610339840#613"    cd "/Users/spencerwhyte/Documents/workspace/Text Remote"    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/spencerwhyte/Documents/workspace/Text Remote/Default.png" "/Users/spencerwhyte/Documents/workspace/Text Remote/build/Release-iphoneos/Text Remote.app/Default.png"0#
+
+CCopyPNGFile "/Users/spencerwhyte/Documents/workspace/Text Remote/build/Release-iphoneos/Text Remote.app/icon.png" icon.png
+s327308911.847383
+e327308911.886392
+r1
+xCopyPNGFile
+x/Users/spencerwhyte/Documents/workspace/Text Remote/build/Release-iphoneos/Text Remote.app/icon.png
+xicon.png
+lSLF07#2@70"CopyPNGFile "build/Release-iphoneos/Text Remote.app/icon.png" icon.png327308911#327308911#0(0"0(0#0#60"/Users/spencerwhyte/Documents/workspace/Text Remote/icon.png8612088064#607"    cd "/Users/spencerwhyte/Documents/workspace/Text Remote"    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/spencerwhyte/Documents/workspace/Text Remote/icon.png" "/Users/spencerwhyte/Documents/workspace/Text Remote/build/Release-iphoneos/Text Remote.app/icon.png"0#
+
+CCopyPNGFile "/Users/spencerwhyte/Documents/workspace/Text Remote/build/Release-iphoneos/Text Remote.app/launchImage.PNG" "Text Remote/../../../../Desktop/launchImage.PNG"
+s327308911.523521
+e327308911.847261
+r1
+xCopyPNGFile
+x/Users/spencerwhyte/Documents/workspace/Text Remote/build/Release-iphoneos/Text Remote.app/launchImage.PNG
+xText Remote/../../../../Desktop/launchImage.PNG
+lSLF07#2@118"CopyPNGFile "build/Release-iphoneos/Text Remote.app/launchImage.PNG" "Text Remote/../../../../Desktop/launchImage.PNG"327308911#327308911#0(0"0(0#0#99"/Users/spencerwhyte/Documents/workspace/Text Remote/Text Remote/../../../../Desktop/launchImage.PNG8612312960#653"    cd "/Users/spencerwhyte/Documents/workspace/Text Remote"    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/spencerwhyte/Documents/workspace/Text Remote/Text Remote/../../../../Desktop/launchImage.PNG" "/Users/spencerwhyte/Documents/workspace/Text Remote/build/Release-iphoneos/Text Remote.app/launchImage.PNG"0#
+
+CCopyStringsFile "/Users/spencerwhyte/Documents/workspace/Text Remote/build/Release-iphoneos/Text Remote.app/en.lproj/InfoPlist.strings" "Text Remote/en.lproj/InfoPlist.strings"
+s327308911.520533
+e327308911.973666
+r1
+xCopyStringsFile
+x/Users/spencerwhyte/Documents/workspace/Text Remote/build/Release-iphoneos/Text Remote.app/en.lproj/InfoPlist.strings
+xText Remote/en.lproj/InfoPlist.strings
+lSLF07#2@43"Copy Text Remote/en.lproj/InfoPlist.strings327308911#327308911#0(0"0(0#0#90"/Users/spencerwhyte/Documents/workspace/Text Remote/Text Remote/en.lproj/InfoPlist.strings8592376256#519"    cd "/Users/spencerwhyte/Documents/workspace/Text Remote"    setenv ICONV /usr/bin/iconv    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding binary "Text Remote/en.lproj/InfoPlist.strings" --outdir "/Users/spencerwhyte/Documents/workspace/Text Remote/build/Release-iphoneos/Text Remote.app/en.lproj"0#
+
+CCpResource "build/Release-iphoneos/Text Remote.app/ResourceRules.plist" /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist
+s327308907.561993
+e327308907.646488
+r1
+xCpResource
+xbuild/Release-iphoneos/Text Remote.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist327308907#327308907#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist3770444610102323200#537"    cd "/Users/spencerwhyte/Documents/workspace/Text Remote"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist "/Users/spencerwhyte/Documents/workspace/Text Remote/build/Release-iphoneos/Text Remote.app"0#
+
+CCpResource "build/Release-iphoneos/Text Remote.app/index.html" "Text Remote/index.html"
+s327308911.522034
+e327308911.527460
+r1
+xCpResource
+xbuild/Release-iphoneos/Text Remote.app/index.html
+xText Remote/index.html
+lSLF07#2@27"Copy Text Remote/index.html327308911#327308911#0(0"0(0#0#74"/Users/spencerwhyte/Documents/workspace/Text Remote/Text Remote/index.html8613194560#524"    cd "/Users/spencerwhyte/Documents/workspace/Text Remote"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks "/Users/spencerwhyte/Documents/workspace/Text Remote/Text Remote/index.html" "/Users/spencerwhyte/Documents/workspace/Text Remote/build/Release-iphoneos/Text Remote.app"0#
+
+CCpResource "build/Release-iphoneos/Text Remote.app/send.html" "Text Remote/send.html"
+s327308911.522783
+e327308911.528286
+r1
+xCpResource
+xbuild/Release-iphoneos/Text Remote.app/send.html
+xText Remote/send.html
+lSLF07#2@26"Copy Text Remote/send.html327308911#327308911#0(0"0(0#0#73"/Users/spencerwhyte/Documents/workspace/Text Remote/Text Remote/send.html8612945792#523"    cd "/Users/spencerwhyte/Documents/workspace/Text Remote"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks "/Users/spencerwhyte/Documents/workspace/Text Remote/Text Remote/send.html" "/Users/spencerwhyte/Documents/workspace/Text Remote/build/Release-iphoneos/Text Remote.app"0#
+
+CCreateUniversalBinary "/Users/spencerwhyte/Documents/workspace/Text Remote/build/Release-iphoneos/Text Remote.app/Text Remote" normal "armv6 armv7"
+s327308911.425855
+e327308911.430283
+r1
+xCreateUniversalBinary
+x/Users/spencerwhyte/Documents/workspace/Text Remote/build/Release-iphoneos/Text Remote.app/Text Remote
+xnormal
+xarmv6 armv7
+lSLF07#2@95"CreateUniversalBinary "build/Release-iphoneos/Text Remote.app/Text Remote" normal "armv6 armv7"327308911#327308911#0(0"0(0#0#63"/Users/spencerwhyte/Documents/workspace/Text Remote/armv6 armv78595744384#616"    cd "/Users/spencerwhyte/Documents/workspace/Text Remote"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create "/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote.build/Objects-normal/armv6/Text Remote" "/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote.build/Objects-normal/armv7/Text Remote" -output "/Users/spencerwhyte/Documents/workspace/Text Remote/build/Release-iphoneos/Text Remote.app/Text Remote"0#
+
+CGenerateDSYMFile "/Users/spencerwhyte/Documents/workspace/Text Remote/build/Release-iphoneos/Text Remote.app.dSYM" "/Users/spencerwhyte/Documents/workspace/Text Remote/build/Release-iphoneos/Text Remote.app/Text Remote"
+s327308911.430354
+e327308911.520446
+r1
+xGenerateDSYMFile
+x/Users/spencerwhyte/Documents/workspace/Text Remote/build/Release-iphoneos/Text Remote.app.dSYM
+x/Users/spencerwhyte/Documents/workspace/Text Remote/build/Release-iphoneos/Text Remote.app/Text Remote
+lSLF07#2@115"GenerateDSYMFile "build/Release-iphoneos/Text Remote.app.dSYM" "build/Release-iphoneos/Text Remote.app/Text Remote"327308911#327308911#0(0"0(0#0#102"/Users/spencerwhyte/Documents/workspace/Text Remote/build/Release-iphoneos/Text Remote.app/Text Remote8594866368#423"    cd "/Users/spencerwhyte/Documents/workspace/Text Remote"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/spencerwhyte/Documents/workspace/Text Remote/build/Release-iphoneos/Text Remote.app/Text Remote" -o "/Users/spencerwhyte/Documents/workspace/Text Remote/build/Release-iphoneos/Text Remote.app.dSYM"0#
+
+CLd "/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote.build/Objects-normal/armv6/Text Remote" normal armv6
+s327308910.676874
+e327308911.425789
+r1
+xLd
+x/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote.build/Objects-normal/armv6/Text Remote
+xnormal
+xarmv6
+lSLF07#2@148"Link /Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote.build/Objects-normal/armv6/Text Remote327308910#327308911#0(0"0(0#0#0"8611125536#1070"    cd "/Users/spencerwhyte/Documents/workspace/Text Remote"    setenv IPHONEOS_DEPLOYMENT_TARGET 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk "-L/Users/spencerwhyte/Documents/workspace/Text Remote/build/Release-iphoneos" "-F/Users/spencerwhyte/Documents/workspace/Text Remote/build/Release-iphoneos" -filelist "/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote.build/Objects-normal/armv6/Text Remote.LinkFileList" -dead_strip -miphoneos-version-min=4.0 -framework AddressBook -framework MessageUI -framework CFNetwork -framework MobileCoreServices -framework UIKit -framework Foundation -framework CoreGraphics -prebind -o "/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote.build/Objects-normal/armv6/Text Remote"0#
+
+CLd "/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote.build/Objects-normal/armv7/Text Remote" normal armv7
+s327308910.848828
+e327308911.425139
+r1
+xLd
+x/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote.build/Objects-normal/armv7/Text Remote
+xnormal
+xarmv7
+lSLF07#2@148"Link /Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote.build/Objects-normal/armv7/Text Remote327308910#327308911#0(0"0(0#0#0"8609009184#1070"    cd "/Users/spencerwhyte/Documents/workspace/Text Remote"    setenv IPHONEOS_DEPLOYMENT_TARGET 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk "-L/Users/spencerwhyte/Documents/workspace/Text Remote/build/Release-iphoneos" "-F/Users/spencerwhyte/Documents/workspace/Text Remote/build/Release-iphoneos" -filelist "/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote.build/Objects-normal/armv7/Text Remote.LinkFileList" -dead_strip -miphoneos-version-min=4.0 -framework AddressBook -framework MessageUI -framework CFNetwork -framework MobileCoreServices -framework UIKit -framework Foundation -framework CoreGraphics -prebind -o "/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote.build/Objects-normal/armv7/Text Remote"0#
+
+CProcessInfoPlistFile "/Users/spencerwhyte/Documents/workspace/Text Remote/build/Release-iphoneos/Text Remote.app/Info.plist" "Text Remote/Text_Remote-Info.plist"
+s327308907.602519
+e327308907.627372
+r1
+xProcessInfoPlistFile
+x/Users/spencerwhyte/Documents/workspace/Text Remote/build/Release-iphoneos/Text Remote.app/Info.plist
+xText Remote/Text_Remote-Info.plist
+lSLF07#2@42"Process Text Remote/Text_Remote-Info.plist327308907#327308907#0(0"0(0#0#86"/Users/spencerwhyte/Documents/workspace/Text Remote/Text Remote/Text_Remote-Info.plist8612574560#658"    cd "/Users/spencerwhyte/Documents/workspace/Text Remote"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility "Text Remote/Text_Remote-Info.plist" -genpkginfo "/Users/spencerwhyte/Documents/workspace/Text Remote/build/Release-iphoneos/Text Remote.app/PkgInfo" -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile "/Users/spencerwhyte/Documents/workspace/Text Remote/build/Release-iphoneos/Text Remote.app/ResourceRules.plist" -o "/Users/spencerwhyte/Documents/workspace/Text Remote/build/Release-iphoneos/Text Remote.app/Info.plist"0#
+
+CProcessPCH /var/folders/t+/t+mDLEErH10OmrEqCleGzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Text_Remote-Prefix-dsgrcsbuliuromatbwpklgdudptz/Text_Remote-Prefix.pch.gch "Text Remote/Text_Remote-Prefix.pch" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s327308907.646823
+e327308909.655940
+r1
+xProcessPCH
+x/var/folders/t+/t+mDLEErH10OmrEqCleGzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Text_Remote-Prefix-dsgrcsbuliuromatbwpklgdudptz/Text_Remote-Prefix.pch.gch
+xText Remote/Text_Remote-Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@45"Precompile Text Remote/Text_Remote-Prefix.pch327308907#327308909#0(0"0(0#0#86"/Users/spencerwhyte/Documents/workspace/Text Remote/Text Remote/Text_Remote-Prefix.pch8611709120#1919"    cd "/Users/spencerwhyte/Documents/workspace/Text Remote"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote.build/Text Remote-generated-files.hmap" "-I/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote.build/Text Remote-own-target-headers.hmap" "-I/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote.build/Text Remote-all-target-headers.hmap" -iquote "/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote.build/Text Remote-project-headers.hmap" "-F/Users/spencerwhyte/Documents/workspace/Text Remote/build/Release-iphoneos" "-I/Users/spencerwhyte/Documents/workspace/Text Remote/build/Release-iphoneos/include" "-I/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote.build/DerivedSources/armv6" "-I/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -c "/Users/spencerwhyte/Documents/workspace/Text Remote/Text Remote/Text_Remote-Prefix.pch" -o /var/folders/t+/t+mDLEErH10OmrEqCleGzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Text_Remote-Prefix-dsgrcsbuliuromatbwpklgdudptz/Text_Remote-Prefix.pch.gch0#
+
+CProcessPCH /var/folders/t+/t+mDLEErH10OmrEqCleGzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Text_Remote-Prefix-gxkmjolkellczwbzqoyavveveaae/Text_Remote-Prefix.pch.gch "Text Remote/Text_Remote-Prefix.pch" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s327308907.647832
+e327308909.779193
+r1
+xProcessPCH
+x/var/folders/t+/t+mDLEErH10OmrEqCleGzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Text_Remote-Prefix-gxkmjolkellczwbzqoyavveveaae/Text_Remote-Prefix.pch.gch
+xText Remote/Text_Remote-Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@45"Precompile Text Remote/Text_Remote-Prefix.pch327308907#327308909#0(0"0(0#0#86"/Users/spencerwhyte/Documents/workspace/Text Remote/Text Remote/Text_Remote-Prefix.pch8611583840#1919"    cd "/Users/spencerwhyte/Documents/workspace/Text Remote"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote.build/Text Remote-generated-files.hmap" "-I/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote.build/Text Remote-own-target-headers.hmap" "-I/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote.build/Text Remote-all-target-headers.hmap" -iquote "/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote.build/Text Remote-project-headers.hmap" "-F/Users/spencerwhyte/Documents/workspace/Text Remote/build/Release-iphoneos" "-I/Users/spencerwhyte/Documents/workspace/Text Remote/build/Release-iphoneos/include" "-I/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote.build/DerivedSources/armv7" "-I/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -c "/Users/spencerwhyte/Documents/workspace/Text Remote/Text Remote/Text_Remote-Prefix.pch" -o /var/folders/t+/t+mDLEErH10OmrEqCleGzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Text_Remote-Prefix-gxkmjolkellczwbzqoyavveveaae/Text_Remote-Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/spencerwhyte/Library/MobileDevice/Provisioning Profiles/69E08F86-3619-4DC6-8DFB-830B91EEBEFE.mobileprovision" "/Users/spencerwhyte/Documents/workspace/Text Remote/build/Release-iphoneos/Text Remote.app/embedded.mobileprovision"
+s327308912.114362
+e327308912.115677
+r1
+xProcessProductPackaging
+x/Users/spencerwhyte/Library/MobileDevice/Provisioning Profiles/69E08F86-3619-4DC6-8DFB-830B91EEBEFE.mobileprovision
+x/Users/spencerwhyte/Documents/workspace/Text Remote/build/Release-iphoneos/Text Remote.app/embedded.mobileprovision
+lSLF07#2@207"ProcessProductPackaging "/Users/spencerwhyte/Library/MobileDevice/Provisioning Profiles/69E08F86-3619-4DC6-8DFB-830B91EEBEFE.mobileprovision" "build/Release-iphoneos/Text Remote.app/embedded.mobileprovision"327308912#327308912#0(0"0(0#0#115"/Users/spencerwhyte/Documents/workspace/Text Remote/build/Release-iphoneos/Text Remote.app/embedded.mobileprovision8611609184#466"    cd "/Users/spencerwhyte/Documents/workspace/Text Remote"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/spencerwhyte/Library/MobileDevice/Provisioning Profiles/69E08F86-3619-4DC6-8DFB-830B91EEBEFE.mobileprovision" -o "/Users/spencerwhyte/Documents/workspace/Text Remote/build/Release-iphoneos/Text Remote.app/embedded.mobileprovision"0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist "/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote.build/Text Remote.xcent"
+s327308912.118508
+e327308912.136688
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist
+x/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote.build/Text Remote.xcent
+lSLF07#2@191"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist "build/Text Remote.build/Release-iphoneos/Text Remote.build/Text Remote.xcent"327308912#327308912#0(0"0(0#0#128"/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote.build/Text Remote.xcent8611181440#476"    cd "/Users/spencerwhyte/Documents/workspace/Text Remote"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist -entitlements -format xml -o "/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote.build/Text Remote.xcent"0#
+
+CTouch "/Users/spencerwhyte/Documents/workspace/Text Remote/build/Release-iphoneos/Text Remote.app"
+s327308912.115722
+e327308912.118399
+r1
+xTouch
+x/Users/spencerwhyte/Documents/workspace/Text Remote/build/Release-iphoneos/Text Remote.app
+lSLF07#2@96"Touch /Users/spencerwhyte/Documents/workspace/Text Remote/build/Release-iphoneos/Text Remote.app327308912#327308912#0(0"0(0#0#0"8611439328#300"    cd "/Users/spencerwhyte/Documents/workspace/Text Remote"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/spencerwhyte/Documents/workspace/Text Remote/build/Release-iphoneos/Text Remote.app"0#
+
+CValidate "/Users/spencerwhyte/Documents/workspace/Text Remote/build/Release-iphoneos/Text Remote.app"
+s327308912.292224
+e327308912.417184
+r1
+xValidate
+x/Users/spencerwhyte/Documents/workspace/Text Remote/build/Release-iphoneos/Text Remote.app
+o2011-05-17 03:08:32.335 Validation[4749:607] *** Warning: Defaulting to the standard codesign tool
+lSLF07#2@49"Validate "build/Release-iphoneos/Text Remote.app"327308912#327308912#0(99"2011-05-17 03:08:32.335 Validation[4749:607] *** Warning: Defaulting to the standard codesign tool0(0#0#90"/Users/spencerwhyte/Documents/workspace/Text Remote/build/Release-iphoneos/Text Remote.app8609705024#409"    cd "/Users/spencerwhyte/Documents/workspace/Text Remote"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv PRODUCT_TYPE com.apple.product-type.application    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/Validation "/Users/spencerwhyte/Documents/workspace/Text Remote/build/Release-iphoneos/Text Remote.app"0#
+

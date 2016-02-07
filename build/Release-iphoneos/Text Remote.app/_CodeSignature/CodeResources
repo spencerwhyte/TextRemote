@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>files</key>
+	<dict>
+		<key>Default.png</key>
+		<data>
+		sIziQXoLkOEqU1SarjsP1p2ZwTw=
+		</data>
+		<key>PkgInfo</key>
+		<data>
+		n57qDP4tZfLD1rCS43W0B4LQjzE=
+		</data>
+		<key>embedded.mobileprovision</key>
+		<data>
+		9ZU9kA8AW15x5gagvL9wAVMJql8=
+		</data>
+		<key>en.lproj/InfoPlist.strings</key>
+		<data>
+		zmV6UqBSo6r1NOz798vd5O4zTBA=
+		</data>
+		<key>en.lproj/MainWindow.nib</key>
+		<data>
+		TRtxLKW5wubOAqXYNZ5mrzDyFX4=
+		</data>
+		<key>icon.png</key>
+		<data>
+		tl4Jly3nO1oZryAgloCWMA5PK20=
+		</data>
+		<key>index.html</key>
+		<data>
+		qEtppuEtZ6xfYV+sX4YdXDgMd/Q=
+		</data>
+		<key>launchImage.PNG</key>
+		<data>
+		0gLdKk4HmkAi4xQmlKGJBWDvZb0=
+		</data>
+		<key>send.html</key>
+		<data>
+		jmKx3I9sbh7PGrLsWiaiAk8k0Lk=
+		</data>
+	</dict>
+	<key>rules</key>
+	<dict>
+		<key>.*</key>
+		<true/>
+		<key>Info.plist</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>10</real>
+		</dict>
+		<key>ResourceRules.plist</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>100</real>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,438 @@
+TText Remote copy
+v7
+r1
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk
+c000000004C6DE9E30000000000000110
+t1282271715
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist
+c000000004C578FA900000000000001E5
+t1280806825
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/AddressBook.framework/AddressBook
+c000000004C5A53F200000000000C8850
+t1280988146
+s821328
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/AddressBook.framework/Headers/AddressBook.h
+c000000004C5A53E80000000000000424
+t1280988136
+s1060
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+c000000004C5A524A00000000002CE430
+t1280987722
+s2942000
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/CFNetwork.framework/Headers/CFNetwork.h
+c000000004C5A517D00000000000004CF
+t1280987517
+s1231
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004C5A51050000000000345F00
+t1280987397
+s3432192
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004C5A52B100000000003E1EF0
+t1280987825
+s4071152
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004C5A527F0000000000001466
+t1280987775
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/MessageUI.framework/Headers/MFMessageComposeViewController.h
+c000000004C5E20FF0000000000001527
+t1281237247
+s5415
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/MessageUI.framework/MessageUI
+c000000004C5E210F00000000000FF4C0
+t1281237263
+s1045696
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+c000000004C5A53E600000000000947B0
+t1280988134
+s608176
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C62427000000000000009CD
+t1281507952
+s2509
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C62430F0000000002EBC2B0
+t1281508111
+s49005232
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/usr/include/Availability.h
+c000000004C57A57A0000000000001A5C
+t1280812410
+s6748
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/usr/include/arpa/inet.h
+c000000004C5790620000000000001533
+t1280807010
+s5427
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/usr/include/ifaddrs.h
+c000000004C5790730000000000000782
+t1280807027
+s1922
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/usr/include/netinet/in.h
+c000000004C5A4AAE0000000000005462
+t1280985774
+s21602
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/usr/include/sys/socket.h
+c000000004C5A4AB400000000000059D6
+t1280985780
+s22998
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/usr/include/unistd.h
+c000000004C579091000000000000563E
+t1280807057
+s22078
+
+N/Users/spencerwhyte/Documents/workspace/Text Remote/Default.png
+c000000004DD162FA00000000000074EE
+t1305567994
+s29934
+
+N/Users/spencerwhyte/Documents/workspace/Text Remote/Text Remote/../../../../Desktop/launchImage.PNG
+c000000004DD161570000000000007B50
+t1305567575
+s31568
+
+N/Users/spencerwhyte/Documents/workspace/Text Remote/Text Remote/HTTPServer.h
+c000000004DD1505600000000000017E9
+t1305563222
+s6121
+i"TCPServer.h"
+i<Foundation/Foundation.h>
+i"RootViewController.h"
+i<AddressBook/AddressBook.h>
+
+N/Users/spencerwhyte/Documents/workspace/Text Remote/Text Remote/HTTPServer.m
+c000000004DD150E50000000000004F4B
+t1305563365
+s20299
+i"HTTPServer.h"
+
+N/Users/spencerwhyte/Documents/workspace/Text Remote/Text Remote/RootViewController.h
+c000000004DD158160000000000000308
+t1305565206
+s776
+i<UIKit/UIKit.h>
+i"HTTPServer.h"
+i<MessageUI/MFMessageComposeViewController.h>
+
+N/Users/spencerwhyte/Documents/workspace/Text Remote/Text Remote/RootViewController.m
+c000000004DD158120000000000001FF1
+t1305565202
+s8177
+i"RootViewController.h"
+
+N/Users/spencerwhyte/Documents/workspace/Text Remote/Text Remote/TCPServer.h
+c000000004DD14FBC0000000000000F86
+t1305563068
+s3974
+i<Foundation/Foundation.h>
+i<CFNetwork/CFNetwork.h>
+i<ifaddrs.h>
+i<arpa/inet.h>
+
+N/Users/spencerwhyte/Documents/workspace/Text Remote/Text Remote/TCPServer.m
+c000000004DCBF5630000000000002BB2
+t1305212259
+s11186
+i"TCPServer.h"
+i<sys/socket.h>
+i<netinet/in.h>
+i<unistd.h>
+
+N/Users/spencerwhyte/Documents/workspace/Text Remote/Text Remote/Text_Remote-Prefix.pch
+c000000004DC8B7460000000000000148
+t1304999750
+s328
+i<Availability.h>
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+
+N/Users/spencerwhyte/Documents/workspace/Text Remote/Text Remote/Text_RemoteAppDelegate.h
+c000000004DC8B74600000000000001D0
+t1304999750
+s464
+i<UIKit/UIKit.h>
+
+N/Users/spencerwhyte/Documents/workspace/Text Remote/Text Remote/Text_RemoteAppDelegate.m
+c000000004DD14F0F0000000000000563
+t1305562895
+s1379
+i"Text_RemoteAppDelegate.h"
+
+N/Users/spencerwhyte/Documents/workspace/Text Remote/Text Remote/en.lproj/InfoPlist.strings
+c000000004DC8B746000000000000002D
+t1304999750
+s45
+
+N/Users/spencerwhyte/Documents/workspace/Text Remote/Text Remote/en.lproj/MainWindow.xib
+c000000004DD1581A0000000000004BBE
+t1305565210
+s19390
+
+N/Users/spencerwhyte/Documents/workspace/Text Remote/Text Remote/index.html
+c000000004DD086880000000000002B5E
+t1305511560
+s11102
+
+N/Users/spencerwhyte/Documents/workspace/Text Remote/Text Remote/main.m
+c000000004DC8B7460000000000000169
+t1304999750
+s361
+i<UIKit/UIKit.h>
+
+N/Users/spencerwhyte/Documents/workspace/Text Remote/Text Remote/send.html
+c000000004DD1455A000000000000333A
+t1305560410
+s13114
+
+N/Users/spencerwhyte/Documents/workspace/Text Remote/build/Release-iphoneos/Text Remote copy.app
+t2
+s0
+
+N/Users/spencerwhyte/Documents/workspace/Text Remote/build/Release-iphoneos/Text Remote copy.app.dSYM
+t2
+s0
+
+N/Users/spencerwhyte/Documents/workspace/Text Remote/build/Release-iphoneos/Text Remote copy.app/Default.png
+t2
+s0
+
+N/Users/spencerwhyte/Documents/workspace/Text Remote/build/Release-iphoneos/Text Remote copy.app/Info.plist
+t2
+s0
+
+N/Users/spencerwhyte/Documents/workspace/Text Remote/build/Release-iphoneos/Text Remote copy.app/PkgInfo
+t2
+s0
+
+N/Users/spencerwhyte/Documents/workspace/Text Remote/build/Release-iphoneos/Text Remote copy.app/ResourceRules.plist
+t2
+s0
+
+N/Users/spencerwhyte/Documents/workspace/Text Remote/build/Release-iphoneos/Text Remote copy.app/Text Remote copy
+t2
+s0
+
+N/Users/spencerwhyte/Documents/workspace/Text Remote/build/Release-iphoneos/Text Remote copy.app/embedded.mobileprovision
+t2
+s0
+
+N/Users/spencerwhyte/Documents/workspace/Text Remote/build/Release-iphoneos/Text Remote copy.app/en.lproj/InfoPlist.strings
+t2
+s0
+
+N/Users/spencerwhyte/Documents/workspace/Text Remote/build/Release-iphoneos/Text Remote copy.app/en.lproj/MainWindow.nib
+t2
+s0
+
+N/Users/spencerwhyte/Documents/workspace/Text Remote/build/Release-iphoneos/Text Remote copy.app/icon.png
+t2
+s0
+
+N/Users/spencerwhyte/Documents/workspace/Text Remote/build/Release-iphoneos/Text Remote copy.app/index.html
+t2
+s0
+
+N/Users/spencerwhyte/Documents/workspace/Text Remote/build/Release-iphoneos/Text Remote copy.app/launchImage.PNG
+t2
+s0
+
+N/Users/spencerwhyte/Documents/workspace/Text Remote/build/Release-iphoneos/Text Remote copy.app/send.html
+t2
+s0
+
+N/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote copy.build/Objects-normal/armv6/HTTPServer.o
+t2
+s0
+
+N/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote copy.build/Objects-normal/armv6/RootViewController.o
+t2
+s0
+
+N/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote copy.build/Objects-normal/armv6/TCPServer.o
+t2
+s0
+
+N/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote copy.build/Objects-normal/armv6/Text Remote copy
+t2
+s0
+
+N/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote copy.build/Objects-normal/armv6/Text Remote copy.LinkFileList
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote copy.build/Objects-normal/armv6/Text_RemoteAppDelegate.o
+t2
+s0
+
+N/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote copy.build/Objects-normal/armv6/main.o
+t2
+s0
+
+N/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote copy.build/Objects-normal/armv7/HTTPServer.o
+t2
+s0
+
+N/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote copy.build/Objects-normal/armv7/RootViewController.o
+t2
+s0
+
+N/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote copy.build/Objects-normal/armv7/TCPServer.o
+t2
+s0
+
+N/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote copy.build/Objects-normal/armv7/Text Remote copy
+t2
+s0
+
+N/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote copy.build/Objects-normal/armv7/Text Remote copy.LinkFileList
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote copy.build/Objects-normal/armv7/Text_RemoteAppDelegate.o
+t2
+s0
+
+N/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote copy.build/Objects-normal/armv7/main.o
+t2
+s0
+
+N/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote copy.build/com.apple.build-tools.platform.validate
+t2
+s0
+
+N/Users/spencerwhyte/Documents/workspace/Text Remote/icon.png
+c000000004DD16236000000000000029C
+t1305567798
+s668
+
+N/Users/spencerwhyte/Library/MobileDevice/Provisioning Profiles/69E08F86-3619-4DC6-8DFB-830B91EEBEFE.mobileprovision
+c000000004DD15FB40000000000001B96
+t1305567156
+s7062
+
+N/var/folders/t+/t+mDLEErH10OmrEqCleGzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Text_Remote-Prefix-dsgrcsbuliuromatbwpklgdudptz/Text_Remote-Prefix.pch.gch
+t1305616109
+s9676336
+
+N/var/folders/t+/t+mDLEErH10OmrEqCleGzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Text_Remote-Prefix-gxkmjolkellczwbzqoyavveveaae/Text_Remote-Prefix.pch.gch
+t1305616109
+s10130992
+
+NText Remote/Text_Remote-Info.plist
+c000000004DD1623E00000000000005E5
+t1305567806
+s1509
+
+CCodeSign "/Users/spencerwhyte/Documents/workspace/Text Remote/build/Release-iphoneos/Text Remote copy.app"
+r0
+
+CCompileC "build/Text Remote.build/Release-iphoneos/Text Remote copy.build/Objects-normal/armv6/HTTPServer.o" "/Users/spencerwhyte/Documents/workspace/Text Remote/Text Remote/HTTPServer.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/Text Remote.build/Release-iphoneos/Text Remote copy.build/Objects-normal/armv6/RootViewController.o" "/Users/spencerwhyte/Documents/workspace/Text Remote/Text Remote/RootViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/Text Remote.build/Release-iphoneos/Text Remote copy.build/Objects-normal/armv6/TCPServer.o" "/Users/spencerwhyte/Documents/workspace/Text Remote/Text Remote/TCPServer.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/Text Remote.build/Release-iphoneos/Text Remote copy.build/Objects-normal/armv6/Text_RemoteAppDelegate.o" "/Users/spencerwhyte/Documents/workspace/Text Remote/Text Remote/Text_RemoteAppDelegate.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/Text Remote.build/Release-iphoneos/Text Remote copy.build/Objects-normal/armv6/main.o" "/Users/spencerwhyte/Documents/workspace/Text Remote/Text Remote/main.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/Text Remote.build/Release-iphoneos/Text Remote copy.build/Objects-normal/armv7/HTTPServer.o" "/Users/spencerwhyte/Documents/workspace/Text Remote/Text Remote/HTTPServer.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/Text Remote.build/Release-iphoneos/Text Remote copy.build/Objects-normal/armv7/RootViewController.o" "/Users/spencerwhyte/Documents/workspace/Text Remote/Text Remote/RootViewController.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/Text Remote.build/Release-iphoneos/Text Remote copy.build/Objects-normal/armv7/TCPServer.o" "/Users/spencerwhyte/Documents/workspace/Text Remote/Text Remote/TCPServer.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/Text Remote.build/Release-iphoneos/Text Remote copy.build/Objects-normal/armv7/Text_RemoteAppDelegate.o" "/Users/spencerwhyte/Documents/workspace/Text Remote/Text Remote/Text_RemoteAppDelegate.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/Text Remote.build/Release-iphoneos/Text Remote copy.build/Objects-normal/armv7/main.o" "/Users/spencerwhyte/Documents/workspace/Text Remote/Text Remote/main.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileXIB "/Users/spencerwhyte/Documents/workspace/Text Remote/Text Remote/en.lproj/MainWindow.xib"
+r0
+
+CCopyPNGFile "/Users/spencerwhyte/Documents/workspace/Text Remote/build/Release-iphoneos/Text Remote copy.app/Default.png" Default.png
+r0
+
+CCopyPNGFile "/Users/spencerwhyte/Documents/workspace/Text Remote/build/Release-iphoneos/Text Remote copy.app/icon.png" icon.png
+r0
+
+CCopyPNGFile "/Users/spencerwhyte/Documents/workspace/Text Remote/build/Release-iphoneos/Text Remote copy.app/launchImage.PNG" "Text Remote/../../../../Desktop/launchImage.PNG"
+r0
+
+CCopyStringsFile "/Users/spencerwhyte/Documents/workspace/Text Remote/build/Release-iphoneos/Text Remote copy.app/en.lproj/InfoPlist.strings" "Text Remote/en.lproj/InfoPlist.strings"
+r0
+
+CCpResource "build/Release-iphoneos/Text Remote copy.app/ResourceRules.plist" /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist
+r0
+
+CCpResource "build/Release-iphoneos/Text Remote copy.app/index.html" "Text Remote/index.html"
+r0
+
+CCpResource "build/Release-iphoneos/Text Remote copy.app/send.html" "Text Remote/send.html"
+r0
+
+CCreateUniversalBinary "/Users/spencerwhyte/Documents/workspace/Text Remote/build/Release-iphoneos/Text Remote copy.app/Text Remote copy" normal "armv6 armv7"
+r0
+
+CGenerateDSYMFile "/Users/spencerwhyte/Documents/workspace/Text Remote/build/Release-iphoneos/Text Remote copy.app.dSYM" "/Users/spencerwhyte/Documents/workspace/Text Remote/build/Release-iphoneos/Text Remote copy.app/Text Remote copy"
+r0
+
+CLd "/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote copy.build/Objects-normal/armv6/Text Remote copy" normal armv6
+r0
+
+CLd "/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote copy.build/Objects-normal/armv7/Text Remote copy" normal armv7
+r0
+
+CProcessInfoPlistFile "/Users/spencerwhyte/Documents/workspace/Text Remote/build/Release-iphoneos/Text Remote copy.app/Info.plist" "Text Remote/Text_Remote-Info.plist"
+r0
+
+CProcessPCH /var/folders/t+/t+mDLEErH10OmrEqCleGzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Text_Remote-Prefix-dsgrcsbuliuromatbwpklgdudptz/Text_Remote-Prefix.pch.gch "Text Remote/Text_Remote-Prefix.pch" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/t+/t+mDLEErH10OmrEqCleGzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Text_Remote-Prefix-gxkmjolkellczwbzqoyavveveaae/Text_Remote-Prefix.pch.gch "Text Remote/Text_Remote-Prefix.pch" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessProductPackaging "/Users/spencerwhyte/Library/MobileDevice/Provisioning Profiles/69E08F86-3619-4DC6-8DFB-830B91EEBEFE.mobileprovision" "/Users/spencerwhyte/Documents/workspace/Text Remote/build/Release-iphoneos/Text Remote copy.app/embedded.mobileprovision"
+r0
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist "/Users/spencerwhyte/Documents/workspace/Text Remote/build/Text Remote.build/Release-iphoneos/Text Remote copy.build/Text Remote copy.xcent"
+r0
+
+CTouch "/Users/spencerwhyte/Documents/workspace/Text Remote/build/Release-iphoneos/Text Remote copy.app"
+r0
+
+CValidate "/Users/spencerwhyte/Documents/workspace/Text Remote/build/Release-iphoneos/Text Remote copy.app"
+r0
+
